@@ -1,0 +1,42 @@
+[
+    {
+        "id": "argentina",
+        "name": "Argentina",
+        "type": "actual"
+    },
+    {
+        "id": "sudamerica",
+        "name": "Sudamérica",
+        "type": "actual"
+    },
+    {
+        "id": "norteamerica",
+        "name": "Norteamérica",
+        "type": "actual"
+    },
+    {
+        "id": "europa",
+        "name": "Europa",
+        "type": "actual"
+    },
+    {
+        "id": "selecciones",
+        "name": "Selecciones",
+        "type": "actual"
+    },
+    {
+        "id": "retro-europa",
+        "name": "Retro Europa",
+        "type": "retro"
+    },
+    {
+        "id": "retro-sudamerica",
+        "name": "Retro Sudamérica",
+        "type": "retro"
+    },
+    {
+        "id": "retro-selecciones",
+        "name": "Retro Selecciones",
+        "type": "retro"
+    }
+]

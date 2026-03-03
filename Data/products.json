@@ -1,0 +1,1602 @@
+[
+    {
+        "id": 1,
+        "title": "Racing Club Titular",
+        "description": "Camiseta oficial Racing Club versión titular temporada actual.",
+        "price": 85000,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 25,
+        "brand": "Kappa",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/racing1.jpg",
+        "images": [
+            "/images/racing1.jpg",
+            "/images/racing2.jpg",
+            "/images/racing3.jpg",
+            "/images/racing4.jpg",
+            "/images/racing5.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Racing Club Alternativa",
+        "description": "Camiseta alternativa Racing Club temporada actual.",
+        "price": 83000,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 20,
+        "brand": "Kappa",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/racing_alt1.jpg",
+        "images": [
+            "/images/racing_alt1.jpg",
+            "/images/racing_alt2.jpg",
+            "/images/racing_alt3.jpg",
+            "/images/racing_alt4.jpg",
+            "/images/racing_alt5.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Boca Juniors Titular",
+        "description": "Camiseta Boca Juniors versión titular temporada actual.",
+        "price": 90000,
+        "discountPercentage": 15,
+        "rating": 4.9,
+        "stock": 30,
+        "brand": "Adidas",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/boca1.jpg",
+        "images": [
+            "/images/boca1.jpg",
+            "/images/boca2.jpg",
+            "/images/boca3.jpg",
+            "/images/boca4.jpg",
+            "/images/boca5.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "River Plate Titular",
+        "description": "Camiseta River Plate versión titular temporada actual.",
+        "price": 90000,
+        "discountPercentage": 12,
+        "rating": 4.9,
+        "stock": 28,
+        "brand": "Adidas",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/river1.jpg",
+        "images": [
+            "/images/river1.jpg",
+            "/images/river2.jpg",
+            "/images/river3.jpg",
+            "/images/river4.jpg",
+            "/images/river5.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Rosario Central Titular",
+        "description": "Camiseta Rosario Central versión titular.",
+        "price": 82000,
+        "discountPercentage": 8,
+        "rating": 4.6,
+        "stock": 18,
+        "brand": "Umbro",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/central1.jpg",
+        "images": [
+            "/images/central1.jpg",
+            "/images/central2.jpg",
+            "/images/central3.jpg",
+            "/images/central4.jpg",
+            "/images/central5.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Newell's Old Boys Titular",
+        "description": "Camiseta Newell's Old Boys versión titular.",
+        "price": 82000,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 22,
+        "brand": "Umbro",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/nob1.jpg",
+        "images": [
+            "/images/nob1.jpg",
+            "/images/nob2.jpg",
+            "/images/nob3.jpg",
+            "/images/nob4.jpg",
+            "/images/nob5.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Estudiantes LP Titular",
+        "description": "Camiseta Estudiantes de La Plata versión titular.",
+        "price": 80000,
+        "discountPercentage": 7,
+        "rating": 4.5,
+        "stock": 20,
+        "brand": "Ruge",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/estudiantes1.jpg",
+        "images": [
+            "/images/estudiantes1.jpg",
+            "/images/estudiantes2.jpg",
+            "/images/estudiantes3.jpg",
+            "/images/estudiantes4.jpg",
+            "/images/estudiantes5.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Lanús Titular",
+        "description": "Camiseta Lanús versión titular.",
+        "price": 78000,
+        "discountPercentage": 5,
+        "rating": 4.4,
+        "stock": 15,
+        "brand": "Peak",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/lanus1.jpg",
+        "images": [
+            "/images/lanus1.jpg",
+            "/images/lanus2.jpg",
+            "/images/lanus3.jpg",
+            "/images/lanus4.jpg",
+            "/images/lanus5.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Vélez Sarsfield Titular",
+        "description": "Camiseta Vélez versión titular.",
+        "price": 79000,
+        "discountPercentage": 6,
+        "rating": 4.5,
+        "stock": 17,
+        "brand": "Umbro",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/velez1.jpg",
+        "images": [
+            "/images/velez1.jpg",
+            "/images/velez2.jpg",
+            "/images/velez3.jpg",
+            "/images/velez4.jpg",
+            "/images/velez5.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "San Lorenzo Titular",
+        "description": "Camiseta San Lorenzo versión titular.",
+        "price": 82000,
+        "discountPercentage": 9,
+        "rating": 4.6,
+        "stock": 21,
+        "brand": "Nike",
+        "categoryId": "argentina",
+        "type": "actual",
+        "thumbnail": "/images/sanlorenzo1.jpg",
+        "images": [
+            "/images/sanlorenzo1.jpg",
+            "/images/sanlorenzo2.jpg",
+            "/images/sanlorenzo3.jpg",
+            "/images/sanlorenzo4.jpg",
+            "/images/sanlorenzo5.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Flamengo Titular",
+        "description": "Camiseta Flamengo versión titular.",
+        "price": 88000,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 26,
+        "brand": "Adidas",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/flamengo1.jpg",
+        "images": [
+            "/images/flamengo1.jpg",
+            "/images/flamengo2.jpg",
+            "/images/flamengo3.jpg",
+            "/images/flamengo4.jpg",
+            "/images/flamengo5.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Palmeiras Titular",
+        "description": "Camiseta Palmeiras versión titular.",
+        "price": 87000,
+        "discountPercentage": 9,
+        "rating": 4.7,
+        "stock": 24,
+        "brand": "Puma",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/palmeiras1.jpg",
+        "images": [
+            "/images/palmeiras1.jpg",
+            "/images/palmeiras2.jpg",
+            "/images/palmeiras3.jpg",
+            "/images/palmeiras4.jpg",
+            "/images/palmeiras5.jpg"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Peñarol Titular",
+        "description": "Camiseta Peñarol versión titular.",
+        "price": 82000,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 19,
+        "brand": "Puma",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/penarol1.jpg",
+        "images": [
+            "/images/penarol1.jpg",
+            "/images/penarol2.jpg",
+            "/images/penarol3.jpg",
+            "/images/penarol4.jpg",
+            "/images/penarol5.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Nacional Titular",
+        "description": "Camiseta Nacional versión titular.",
+        "price": 82000,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 18,
+        "brand": "Umbro",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/nacional1.jpg",
+        "images": [
+            "/images/nacional1.jpg",
+            "/images/nacional2.jpg",
+            "/images/nacional3.jpg",
+            "/images/nacional4.jpg",
+            "/images/nacional5.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Colo Colo Titular",
+        "description": "Camiseta Colo Colo versión titular.",
+        "price": 81000,
+        "discountPercentage": 7,
+        "rating": 4.5,
+        "stock": 20,
+        "brand": "Adidas",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/colocolo1.jpg",
+        "images": [
+            "/images/colocolo1.jpg",
+            "/images/colocolo2.jpg",
+            "/images/colocolo3.jpg",
+            "/images/colocolo4.jpg",
+            "/images/colocolo5.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Atlético Nacional Titular",
+        "description": "Camiseta Atlético Nacional versión titular.",
+        "price": 83000,
+        "discountPercentage": 8,
+        "rating": 4.7,
+        "stock": 23,
+        "brand": "Nike",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/atlnacional1.jpg",
+        "images": [
+            "/images/atlnacional1.jpg",
+            "/images/atlnacional2.jpg",
+            "/images/atlnacional3.jpg",
+            "/images/atlnacional4.jpg",
+            "/images/atlnacional5.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Millonarios Titular",
+        "description": "Camiseta Millonarios versión titular.",
+        "price": 82000,
+        "discountPercentage": 5,
+        "rating": 4.5,
+        "stock": 16,
+        "brand": "Adidas",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/millonarios1.jpg",
+        "images": [
+            "/images/millonarios1.jpg",
+            "/images/millonarios2.jpg",
+            "/images/millonarios3.jpg",
+            "/images/millonarios4.jpg",
+            "/images/millonarios5.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Universidad de Chile Titular",
+        "description": "Camiseta U de Chile versión titular.",
+        "price": 82000,
+        "discountPercentage": 5,
+        "rating": 4.5,
+        "stock": 18,
+        "brand": "Adidas",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/udechile1.jpg",
+        "images": [
+            "/images/udechile1.jpg",
+            "/images/udechile2.jpg",
+            "/images/udechile3.jpg",
+            "/images/udechile4.jpg",
+            "/images/udechile5.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Libertad Titular",
+        "description": "Camiseta Libertad versión titular.",
+        "price": 78000,
+        "discountPercentage": 4,
+        "rating": 4.4,
+        "stock": 14,
+        "brand": "Puma",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/libertad1.jpg",
+        "images": [
+            "/images/libertad1.jpg",
+            "/images/libertad2.jpg",
+            "/images/libertad3.jpg",
+            "/images/libertad4.jpg",
+            "/images/libertad5.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Alianza Lima Titular",
+        "description": "Camiseta Alianza Lima versión titular.",
+        "price": 80000,
+        "discountPercentage": 6,
+        "rating": 4.5,
+        "stock": 19,
+        "brand": "Nike",
+        "categoryId": "sudamerica",
+        "type": "actual",
+        "thumbnail": "/images/alianza1.jpg",
+        "images": [
+            "/images/alianza1.jpg",
+            "/images/alianza2.jpg",
+            "/images/alianza3.jpg",
+            "/images/alianza4.jpg",
+            "/images/alianza5.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Inter Miami Titular",
+        "description": "Camiseta Inter Miami versión titular.",
+        "price": 92000,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 25,
+        "brand": "Adidas",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/intermiami1.jpg",
+        "images": [
+            "/images/intermiami1.jpg",
+            "/images/intermiami2.jpg",
+            "/images/intermiami3.jpg",
+            "/images/intermiami4.jpg",
+            "/images/intermiami5.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Atlanta United Titular",
+        "description": "Camiseta Atlanta United versión titular.",
+        "price": 88000,
+        "discountPercentage": 8,
+        "rating": 4.6,
+        "stock": 22,
+        "brand": "Adidas",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/atlanta1.jpg",
+        "images": [
+            "/images/atlanta1.jpg",
+            "/images/atlanta2.jpg",
+            "/images/atlanta3.jpg",
+            "/images/atlanta4.jpg",
+            "/images/atlanta5.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "LAFC Titular",
+        "description": "Camiseta LAFC versión titular.",
+        "price": 89000,
+        "discountPercentage": 7,
+        "rating": 4.7,
+        "stock": 20,
+        "brand": "Adidas",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/lafc1.jpg",
+        "images": [
+            "/images/lafc1.jpg",
+            "/images/lafc2.jpg",
+            "/images/lafc3.jpg",
+            "/images/lafc4.jpg",
+            "/images/lafc5.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Club América Titular",
+        "description": "Camiseta Club América versión titular.",
+        "price": 90000,
+        "discountPercentage": 12,
+        "rating": 4.8,
+        "stock": 28,
+        "brand": "Nike",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/america1.jpg",
+        "images": [
+            "/images/america1.jpg",
+            "/images/america2.jpg",
+            "/images/america3.jpg",
+            "/images/america4.jpg",
+            "/images/america5.jpg"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Cruz Azul Titular",
+        "description": "Camiseta Cruz Azul versión titular.",
+        "price": 88000,
+        "discountPercentage": 9,
+        "rating": 4.6,
+        "stock": 21,
+        "brand": "Puma",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/cruzazul1.jpg",
+        "images": [
+            "/images/cruzazul1.jpg",
+            "/images/cruzazul2.jpg",
+            "/images/cruzazul3.jpg",
+            "/images/cruzazul4.jpg",
+            "/images/cruzazul5.jpg"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Monterrey Titular",
+        "description": "Camiseta Monterrey versión titular.",
+        "price": 89000,
+        "discountPercentage": 10,
+        "rating": 4.7,
+        "stock": 23,
+        "brand": "Puma",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/monterrey1.jpg",
+        "images": [
+            "/images/monterrey1.jpg",
+            "/images/monterrey2.jpg",
+            "/images/monterrey3.jpg",
+            "/images/monterrey4.jpg",
+            "/images/monterrey5.jpg"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Pachuca Titular",
+        "description": "Camiseta Pachuca versión titular.",
+        "price": 85000,
+        "discountPercentage": 6,
+        "rating": 4.5,
+        "stock": 18,
+        "brand": "Charly",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/pachuca1.jpg",
+        "images": [
+            "/images/pachuca1.jpg",
+            "/images/pachuca2.jpg",
+            "/images/pachuca3.jpg",
+            "/images/pachuca4.jpg",
+            "/images/pachuca5.jpg"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Atlas Guadalajara Titular",
+        "description": "Camiseta Atlas Guadalajara versión titular.",
+        "price": 86000,
+        "discountPercentage": 7,
+        "rating": 4.6,
+        "stock": 19,
+        "brand": "Charly",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/atlas1.jpg",
+        "images": [
+            "/images/atlas1.jpg",
+            "/images/atlas2.jpg",
+            "/images/atlas3.jpg",
+            "/images/atlas4.jpg",
+            "/images/atlas5.jpg"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Pumas UNAM Titular",
+        "description": "Camiseta Pumas UNAM versión titular.",
+        "price": 88000,
+        "discountPercentage": 9,
+        "rating": 4.7,
+        "stock": 20,
+        "brand": "Nike",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/pumas1.jpg",
+        "images": [
+            "/images/pumas1.jpg",
+            "/images/pumas2.jpg",
+            "/images/pumas3.jpg",
+            "/images/pumas4.jpg",
+            "/images/pumas5.jpg"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "LA Galaxy Titular",
+        "description": "Camiseta LA Galaxy versión titular.",
+        "price": 89000,
+        "discountPercentage": 8,
+        "rating": 4.6,
+        "stock": 22,
+        "brand": "Adidas",
+        "categoryId": "norteamerica",
+        "type": "actual",
+        "thumbnail": "/images/lagalaxy1.jpg",
+        "images": [
+            "/images/lagalaxy1.jpg",
+            "/images/lagalaxy2.jpg",
+            "/images/lagalaxy3.jpg",
+            "/images/lagalaxy4.jpg",
+            "/images/lagalaxy5.jpg"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Barcelona Titular",
+        "description": "Camiseta FC Barcelona versión titular.",
+        "price": 95000,
+        "discountPercentage": 15,
+        "rating": 4.9,
+        "stock": 30,
+        "brand": "Nike",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/barcelona1.jpg",
+        "images": [
+            "/images/barcelona1.jpg",
+            "/images/barcelona2.jpg",
+            "/images/barcelona3.jpg",
+            "/images/barcelona4.jpg",
+            "/images/barcelona5.jpg"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Real Madrid Titular",
+        "description": "Camiseta Real Madrid versión titular.",
+        "price": 95000,
+        "discountPercentage": 14,
+        "rating": 4.9,
+        "stock": 30,
+        "brand": "Adidas",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/realmadrid1.jpg",
+        "images": [
+            "/images/realmadrid1.jpg",
+            "/images/realmadrid2.jpg",
+            "/images/realmadrid3.jpg",
+            "/images/realmadrid4.jpg",
+            "/images/realmadrid5.jpg"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Liverpool Titular",
+        "description": "Camiseta Liverpool versión titular.",
+        "price": 93000,
+        "discountPercentage": 12,
+        "rating": 4.8,
+        "stock": 24,
+        "brand": "Nike",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/liverpool1.jpg",
+        "images": [
+            "/images/liverpool1.jpg",
+            "/images/liverpool2.jpg",
+            "/images/liverpool3.jpg",
+            "/images/liverpool4.jpg",
+            "/images/liverpool5.jpg"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Bayern Munich Titular",
+        "description": "Camiseta Bayern Munich versión titular.",
+        "price": 94000,
+        "discountPercentage": 13,
+        "rating": 4.8,
+        "stock": 25,
+        "brand": "Adidas",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/bayern1.jpg",
+        "images": [
+            "/images/bayern1.jpg",
+            "/images/bayern2.jpg",
+            "/images/bayern3.jpg",
+            "/images/bayern4.jpg",
+            "/images/bayern5.jpg"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Inter de Milán Titular",
+        "description": "Camiseta Inter versión titular.",
+        "price": 92000,
+        "discountPercentage": 10,
+        "rating": 4.7,
+        "stock": 22,
+        "brand": "Nike",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/inter1.jpg",
+        "images": [
+            "/images/inter1.jpg",
+            "/images/inter2.jpg",
+            "/images/inter3.jpg",
+            "/images/inter4.jpg",
+            "/images/inter5.jpg"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "PSG Titular",
+        "description": "Camiseta Paris Saint-Germain versión titular.",
+        "price": 95000,
+        "discountPercentage": 15,
+        "rating": 4.9,
+        "stock": 28,
+        "brand": "Nike",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/psg1.jpg",
+        "images": [
+            "/images/psg1.jpg",
+            "/images/psg2.jpg",
+            "/images/psg3.jpg",
+            "/images/psg4.jpg",
+            "/images/psg5.jpg"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Manchester United Titular",
+        "description": "Camiseta Manchester United versión titular.",
+        "price": 94000,
+        "discountPercentage": 13,
+        "rating": 4.8,
+        "stock": 25,
+        "brand": "Adidas",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/manunited1.jpg",
+        "images": [
+            "/images/manunited1.jpg",
+            "/images/manunited2.jpg",
+            "/images/manunited3.jpg",
+            "/images/manunited4.jpg",
+            "/images/manunited5.jpg"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Manchester City Titular",
+        "description": "Camiseta Manchester City versión titular.",
+        "price": 94000,
+        "discountPercentage": 14,
+        "rating": 4.9,
+        "stock": 27,
+        "brand": "Puma",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/mancity1.jpg",
+        "images": [
+            "/images/mancity1.jpg",
+            "/images/mancity2.jpg",
+            "/images/mancity3.jpg",
+            "/images/mancity4.jpg",
+            "/images/mancity5.jpg"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "AC Milan Titular",
+        "description": "Camiseta Milan versión titular.",
+        "price": 92000,
+        "discountPercentage": 11,
+        "rating": 4.7,
+        "stock": 21,
+        "brand": "Puma",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/milan1.jpg",
+        "images": [
+            "/images/milan1.jpg",
+            "/images/milan2.jpg",
+            "/images/milan3.jpg",
+            "/images/milan4.jpg",
+            "/images/milan5.jpg"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Juventus Titular",
+        "description": "Camiseta Juventus versión titular.",
+        "price": 93000,
+        "discountPercentage": 12,
+        "rating": 4.8,
+        "stock": 23,
+        "brand": "Adidas",
+        "categoryId": "europa",
+        "type": "actual",
+        "thumbnail": "/images/juventus1.jpg",
+        "images": [
+            "/images/juventus1.jpg",
+            "/images/juventus2.jpg",
+            "/images/juventus3.jpg",
+            "/images/juventus4.jpg",
+            "/images/juventus5.jpg"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Argentina Titular",
+        "description": "Camiseta Selección Argentina versión titular.",
+        "price": 95000,
+        "discountPercentage": 15,
+        "rating": 4.9,
+        "stock": 35,
+        "brand": "Adidas",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/arg1.jpg",
+        "images": [
+            "/images/arg1.jpg",
+            "/images/arg2.jpg",
+            "/images/arg3.jpg",
+            "/images/arg4.jpg",
+            "/images/arg5.jpg"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Brasil Titular",
+        "description": "Camiseta Selección Brasil versión titular.",
+        "price": 95000,
+        "discountPercentage": 14,
+        "rating": 4.9,
+        "stock": 32,
+        "brand": "Nike",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/brasil1.jpg",
+        "images": [
+            "/images/brasil1.jpg",
+            "/images/brasil2.jpg",
+            "/images/brasil3.jpg",
+            "/images/brasil4.jpg",
+            "/images/brasil5.jpg"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Francia Titular",
+        "description": "Camiseta Selección Francia versión titular.",
+        "price": 94000,
+        "discountPercentage": 13,
+        "rating": 4.8,
+        "stock": 28,
+        "brand": "Nike",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/francia1.jpg",
+        "images": [
+            "/images/francia1.jpg",
+            "/images/francia2.jpg",
+            "/images/francia3.jpg",
+            "/images/francia4.jpg",
+            "/images/francia5.jpg"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "España Titular",
+        "description": "Camiseta Selección España versión titular.",
+        "price": 94000,
+        "discountPercentage": 12,
+        "rating": 4.8,
+        "stock": 26,
+        "brand": "Adidas",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/espana1.jpg",
+        "images": [
+            "/images/espana1.jpg",
+            "/images/espana2.jpg",
+            "/images/espana3.jpg",
+            "/images/espana4.jpg",
+            "/images/espana5.jpg"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Alemania Titular",
+        "description": "Camiseta Selección Alemania versión titular.",
+        "price": 94000,
+        "discountPercentage": 12,
+        "rating": 4.8,
+        "stock": 24,
+        "brand": "Adidas",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/alemania1.jpg",
+        "images": [
+            "/images/alemania1.jpg",
+            "/images/alemania2.jpg",
+            "/images/alemania3.jpg",
+            "/images/alemania4.jpg",
+            "/images/alemania5.jpg"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Italia Titular",
+        "description": "Camiseta Selección Italia versión titular.",
+        "price": 93000,
+        "discountPercentage": 10,
+        "rating": 4.7,
+        "stock": 22,
+        "brand": "Puma",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/italia1.jpg",
+        "images": [
+            "/images/italia1.jpg",
+            "/images/italia2.jpg",
+            "/images/italia3.jpg",
+            "/images/italia4.jpg",
+            "/images/italia5.jpg"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Inglaterra Titular",
+        "description": "Camiseta Selección Inglaterra versión titular.",
+        "price": 94000,
+        "discountPercentage": 13,
+        "rating": 4.8,
+        "stock": 25,
+        "brand": "Nike",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/inglaterra1.jpg",
+        "images": [
+            "/images/inglaterra1.jpg",
+            "/images/inglaterra2.jpg",
+            "/images/inglaterra3.jpg",
+            "/images/inglaterra4.jpg",
+            "/images/inglaterra5.jpg"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Uruguay Titular",
+        "description": "Camiseta Selección Uruguay versión titular.",
+        "price": 92000,
+        "discountPercentage": 9,
+        "rating": 4.6,
+        "stock": 20,
+        "brand": "Puma",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/uruguay1.jpg",
+        "images": [
+            "/images/uruguay1.jpg",
+            "/images/uruguay2.jpg",
+            "/images/uruguay3.jpg",
+            "/images/uruguay4.jpg",
+            "/images/uruguay5.jpg"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Holanda Titular",
+        "description": "Camiseta Selección Holanda versión titular.",
+        "price": 93000,
+        "discountPercentage": 11,
+        "rating": 4.7,
+        "stock": 23,
+        "brand": "Nike",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/holanda1.jpg",
+        "images": [
+            "/images/holanda1.jpg",
+            "/images/holanda2.jpg",
+            "/images/holanda3.jpg",
+            "/images/holanda4.jpg",
+            "/images/holanda5.jpg"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Croacia Titular",
+        "description": "Camiseta Selección Croacia versión titular.",
+        "price": 92000,
+        "discountPercentage": 10,
+        "rating": 4.7,
+        "stock": 21,
+        "brand": "Nike",
+        "categoryId": "selecciones",
+        "type": "actual",
+        "thumbnail": "/images/croacia1.jpg",
+        "images": [
+            "/images/croacia1.jpg",
+            "/images/croacia2.jpg",
+            "/images/croacia3.jpg",
+            "/images/croacia4.jpg",
+            "/images/croacia5.jpg"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Barcelona 2009",
+        "description": "Camiseta FC Barcelona temporada 2008/09 retro.",
+        "price": 110000,
+        "discountPercentage": 5,
+        "rating": 4.9,
+        "stock": 18,
+        "brand": "Nike",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/barca2009.jpg",
+        "images": [
+            "/images/barca2009.jpg",
+            "/images/barca2009_2.jpg",
+            "/images/barca2009_3.jpg",
+            "/images/barca2009_4.jpg",
+            "/images/barca2009_5.jpg"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Milan 2009/10",
+        "description": "Camiseta AC Milan temporada 2009/10 retro.",
+        "price": 105000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 16,
+        "brand": "Adidas",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/milan2009.jpg",
+        "images": [
+            "/images/milan2009.jpg",
+            "/images/milan2009_2.jpg",
+            "/images/milan2009_3.jpg",
+            "/images/milan2009_4.jpg",
+            "/images/milan2009_5.jpg"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Napoli 1987",
+        "description": "Camiseta Napoli 1987 retro.",
+        "price": 115000,
+        "discountPercentage": 4,
+        "rating": 4.9,
+        "stock": 14,
+        "brand": "NR",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/napoli1987.jpg",
+        "images": [
+            "/images/napoli1987.jpg",
+            "/images/napoli1987_2.jpg",
+            "/images/napoli1987_3.jpg",
+            "/images/napoli1987_4.jpg",
+            "/images/napoli1987_5.jpg"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "Man United 2008",
+        "description": "Camiseta Manchester United 2008 retro.",
+        "price": 110000,
+        "discountPercentage": 6,
+        "rating": 4.9,
+        "stock": 17,
+        "brand": "Nike",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/manutd2008.jpg",
+        "images": [
+            "/images/manutd2008.jpg",
+            "/images/manutd2008_2.jpg",
+            "/images/manutd2008_3.jpg",
+            "/images/manutd2008_4.jpg",
+            "/images/manutd2008_5.jpg"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Real Madrid 2018",
+        "description": "Camiseta Real Madrid 2018 retro.",
+        "price": 110000,
+        "discountPercentage": 5,
+        "rating": 4.9,
+        "stock": 19,
+        "brand": "Adidas",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/realmadrid2018.jpg",
+        "images": [
+            "/images/realmadrid2018.jpg",
+            "/images/realmadrid2018_2.jpg",
+            "/images/realmadrid2018_3.jpg",
+            "/images/realmadrid2018_4.jpg",
+            "/images/realmadrid2018_5.jpg"
+        ]
+    },
+    {
+        "id": 56,
+        "title": "Arsenal 2005/06",
+        "description": "Camiseta Arsenal 2005/06 retro.",
+        "price": 105000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 15,
+        "brand": "Nike",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/arsenal2005.jpg",
+        "images": [
+            "/images/arsenal2005.jpg",
+            "/images/arsenal2005_2.jpg",
+            "/images/arsenal2005_3.jpg",
+            "/images/arsenal2005_4.jpg",
+            "/images/arsenal2005_5.jpg"
+        ]
+    },
+    {
+        "id": 57,
+        "title": "Juventus 2018/19",
+        "description": "Camiseta Juventus 2018/19 retro.",
+        "price": 108000,
+        "discountPercentage": 6,
+        "rating": 4.8,
+        "stock": 18,
+        "brand": "Adidas",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/juve2018.jpg",
+        "images": [
+            "/images/juve2018.jpg",
+            "/images/juve2018_2.jpg",
+            "/images/juve2018_3.jpg",
+            "/images/juve2018_4.jpg",
+            "/images/juve2018_5.jpg"
+        ]
+    },
+    {
+        "id": 58,
+        "title": "Inter 1998/99",
+        "description": "Camiseta Inter 1998/99 retro.",
+        "price": 112000,
+        "discountPercentage": 4,
+        "rating": 4.9,
+        "stock": 14,
+        "brand": "Nike",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/inter1999.jpg",
+        "images": [
+            "/images/inter1999.jpg",
+            "/images/inter1999_2.jpg",
+            "/images/inter1999_3.jpg",
+            "/images/inter1999_4.jpg",
+            "/images/inter1999_5.jpg"
+        ]
+    },
+    {
+        "id": 59,
+        "title": "Man City 2013",
+        "description": "Camiseta Manchester City 2013 retro.",
+        "price": 105000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 16,
+        "brand": "Nike",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/mancity2013.jpg",
+        "images": [
+            "/images/mancity2013.jpg",
+            "/images/mancity2013_2.jpg",
+            "/images/mancity2013_3.jpg",
+            "/images/mancity2013_4.jpg",
+            "/images/mancity2013_5.jpg"
+        ]
+    },
+    {
+        "id": 60,
+        "title": "Barcelona 2016",
+        "description": "Camiseta FC Barcelona 2016 retro.",
+        "price": 108000,
+        "discountPercentage": 6,
+        "rating": 4.8,
+        "stock": 17,
+        "brand": "Nike",
+        "categoryId": "retro-europa",
+        "type": "retro",
+        "thumbnail": "/images/barca2016.jpg",
+        "images": [
+            "/images/barca2016.jpg",
+            "/images/barca2016_2.jpg",
+            "/images/barca2016_3.jpg",
+            "/images/barca2016_4.jpg",
+            "/images/barca2016_5.jpg"
+        ]
+    },
+    {
+        "id": 61,
+        "title": "Santos 2011 Neymar",
+        "description": "Camiseta Santos 2011 Neymar retro.",
+        "price": 115000,
+        "discountPercentage": 4,
+        "rating": 4.9,
+        "stock": 14,
+        "brand": "Umbro",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/santos2011.jpg",
+        "images": [
+            "/images/santos2011.jpg",
+            "/images/santos2011_2.jpg",
+            "/images/santos2011_3.jpg",
+            "/images/santos2011_4.jpg",
+            "/images/santos2011_5.jpg"
+        ]
+    },
+    {
+        "id": 62,
+        "title": "Boca 2001",
+        "description": "Camiseta Boca Juniors 2001 retro.",
+        "price": 112000,
+        "discountPercentage": 5,
+        "rating": 4.9,
+        "stock": 18,
+        "brand": "Nike",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/boca2001.jpg",
+        "images": [
+            "/images/boca2001.jpg",
+            "/images/boca2001_2.jpg",
+            "/images/boca2001_3.jpg",
+            "/images/boca2001_4.jpg",
+            "/images/boca2001_5.jpg"
+        ]
+    },
+    {
+        "id": 63,
+        "title": "Newell's 1993",
+        "description": "Camiseta Newell's 1993 retro.",
+        "price": 108000,
+        "discountPercentage": 6,
+        "rating": 4.8,
+        "stock": 16,
+        "brand": "Adidas",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/nob1993.jpg",
+        "images": [
+            "/images/nob1993.jpg",
+            "/images/nob1993_2.jpg",
+            "/images/nob1993_3.jpg",
+            "/images/nob1993_4.jpg",
+            "/images/nob1993_5.jpg"
+        ]
+    },
+    {
+        "id": 64,
+        "title": "River 2018",
+        "description": "Camiseta River Plate 2018 retro.",
+        "price": 112000,
+        "discountPercentage": 5,
+        "rating": 4.9,
+        "stock": 20,
+        "brand": "Adidas",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/river2018.jpg",
+        "images": [
+            "/images/river2018.jpg",
+            "/images/river2018_2.jpg",
+            "/images/river2018_3.jpg",
+            "/images/river2018_4.jpg",
+            "/images/river2018_5.jpg"
+        ]
+    },
+    {
+        "id": 65,
+        "title": "Racing 2001",
+        "description": "Camiseta Racing 2001 retro.",
+        "price": 108000,
+        "discountPercentage": 6,
+        "rating": 4.8,
+        "stock": 17,
+        "brand": "Topper",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/racing2001.jpg",
+        "images": [
+            "/images/racing2001.jpg",
+            "/images/racing2001_2.jpg",
+            "/images/racing2001_3.jpg",
+            "/images/racing2001_4.jpg",
+            "/images/racing2001_5.jpg"
+        ]
+    },
+    {
+        "id": 66,
+        "title": "Central 2007/08",
+        "description": "Camiseta Rosario Central 2007/08 retro.",
+        "price": 105000,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 15,
+        "brand": "Nike",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/central2008.jpg",
+        "images": [
+            "/images/central2008.jpg",
+            "/images/central2008_2.jpg",
+            "/images/central2008_3.jpg",
+            "/images/central2008_4.jpg",
+            "/images/central2008_5.jpg"
+        ]
+    },
+    {
+        "id": 67,
+        "title": "Racing 2001 Suplente",
+        "description": "Camiseta Racing 2001 suplente retro.",
+        "price": 108000,
+        "discountPercentage": 6,
+        "rating": 4.8,
+        "stock": 14,
+        "brand": "Topper",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/racing2001s.jpg",
+        "images": [
+            "/images/racing2001s.jpg",
+            "/images/racing2001s_2.jpg",
+            "/images/racing2001s_3.jpg",
+            "/images/racing2001s_4.jpg",
+            "/images/racing2001s_5.jpg"
+        ]
+    },
+    {
+        "id": 68,
+        "title": "San Lorenzo 2002/03",
+        "description": "Camiseta San Lorenzo 2002/03 retro.",
+        "price": 105000,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 16,
+        "brand": "Nike",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/sl2003.jpg",
+        "images": [
+            "/images/sl2003.jpg",
+            "/images/sl2003_2.jpg",
+            "/images/sl2003_3.jpg",
+            "/images/sl2003_4.jpg",
+            "/images/sl2003_5.jpg"
+        ]
+    },
+    {
+        "id": 69,
+        "title": "Racing 2004",
+        "description": "Camiseta Racing 2004 retro.",
+        "price": 102000,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 15,
+        "brand": "Topper",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/racing2004.jpg",
+        "images": [
+            "/images/racing2004.jpg",
+            "/images/racing2004_2.jpg",
+            "/images/racing2004_3.jpg",
+            "/images/racing2004_4.jpg",
+            "/images/racing2004_5.jpg"
+        ]
+    },
+    {
+        "id": 70,
+        "title": "Boca 2000",
+        "description": "Camiseta Boca Juniors 2000 retro.",
+        "price": 112000,
+        "discountPercentage": 5,
+        "rating": 4.9,
+        "stock": 19,
+        "brand": "Nike",
+        "categoryId": "retro-sudamerica",
+        "type": "retro",
+        "thumbnail": "/images/boca2000.jpg",
+        "images": [
+            "/images/boca2000.jpg",
+            "/images/boca2000_2.jpg",
+            "/images/boca2000_3.jpg",
+            "/images/boca2000_4.jpg",
+            "/images/boca2000_5.jpg"
+        ]
+    },
+    {
+        "id": 71,
+        "title": "Argentina 1994",
+        "description": "Camiseta Argentina 1994 retro.",
+        "price": 115000,
+        "discountPercentage": 4,
+        "rating": 4.9,
+        "stock": 14,
+        "brand": "Adidas",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/arg1994.jpg",
+        "images": [
+            "/images/arg1994.jpg",
+            "/images/arg1994_2.jpg",
+            "/images/arg1994_3.jpg",
+            "/images/arg1994_4.jpg",
+            "/images/arg1994_5.jpg"
+        ]
+    },
+    {
+        "id": 72,
+        "title": "Argentina 2006",
+        "description": "Camiseta Argentina 2006 retro.",
+        "price": 110000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 16,
+        "brand": "Adidas",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/arg2006.jpg",
+        "images": [
+            "/images/arg2006.jpg",
+            "/images/arg2006_2.jpg",
+            "/images/arg2006_3.jpg",
+            "/images/arg2006_4.jpg",
+            "/images/arg2006_5.jpg"
+        ]
+    },
+    {
+        "id": 73,
+        "title": "Francia 2006",
+        "description": "Camiseta Francia 2006 retro.",
+        "price": 108000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 15,
+        "brand": "Adidas",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/francia2006.jpg",
+        "images": [
+            "/images/francia2006.jpg",
+            "/images/francia2006_2.jpg",
+            "/images/francia2006_3.jpg",
+            "/images/francia2006_4.jpg",
+            "/images/francia2006_5.jpg"
+        ]
+    },
+    {
+        "id": 74,
+        "title": "Brasil 2002",
+        "description": "Camiseta Brasil 2002 retro.",
+        "price": 115000,
+        "discountPercentage": 4,
+        "rating": 4.9,
+        "stock": 18,
+        "brand": "Nike",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/brasil2002.jpg",
+        "images": [
+            "/images/brasil2002.jpg",
+            "/images/brasil2002_2.jpg",
+            "/images/brasil2002_3.jpg",
+            "/images/brasil2002_4.jpg",
+            "/images/brasil2002_5.jpg"
+        ]
+    },
+    {
+        "id": 75,
+        "title": "Portugal 2016",
+        "description": "Camiseta Portugal 2016 retro.",
+        "price": 108000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 15,
+        "brand": "Nike",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/portugal2016.jpg",
+        "images": [
+            "/images/portugal2016.jpg",
+            "/images/portugal2016_2.jpg",
+            "/images/portugal2016_3.jpg",
+            "/images/portugal2016_4.jpg",
+            "/images/portugal2016_5.jpg"
+        ]
+    },
+    {
+        "id": 76,
+        "title": "Alemania 2006",
+        "description": "Camiseta Alemania 2006 retro.",
+        "price": 108000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 14,
+        "brand": "Adidas",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/alemania2006.jpg",
+        "images": [
+            "/images/alemania2006.jpg",
+            "/images/alemania2006_2.jpg",
+            "/images/alemania2006_3.jpg",
+            "/images/alemania2006_4.jpg",
+            "/images/alemania2006_5.jpg"
+        ]
+    },
+    {
+        "id": 77,
+        "title": "Italia 1998",
+        "description": "Camiseta Italia 1998 retro.",
+        "price": 110000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 13,
+        "brand": "Nike",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/italia1998.jpg",
+        "images": [
+            "/images/italia1998.jpg",
+            "/images/italia1998_2.jpg",
+            "/images/italia1998_3.jpg",
+            "/images/italia1998_4.jpg",
+            "/images/italia1998_5.jpg"
+        ]
+    },
+    {
+        "id": 78,
+        "title": "Argentina 2014 Suplente",
+        "description": "Camiseta Argentina 2014 suplente retro.",
+        "price": 110000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 17,
+        "brand": "Adidas",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/arg2014s.jpg",
+        "images": [
+            "/images/arg2014s.jpg",
+            "/images/arg2014s_2.jpg",
+            "/images/arg2014s_3.jpg",
+            "/images/arg2014s_4.jpg",
+            "/images/arg2014s_5.jpg"
+        ]
+    },
+    {
+        "id": 79,
+        "title": "España 2010",
+        "description": "Camiseta España 2010 retro.",
+        "price": 115000,
+        "discountPercentage": 4,
+        "rating": 4.9,
+        "stock": 18,
+        "brand": "Adidas",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/espana2010.jpg",
+        "images": [
+            "/images/espana2010.jpg",
+            "/images/espana2010_2.jpg",
+            "/images/espana2010_3.jpg",
+            "/images/espana2010_4.jpg",
+            "/images/espana2010_5.jpg"
+        ]
+    },
+    {
+        "id": 80,
+        "title": "Holanda 2006",
+        "description": "Camiseta Holanda 2006 retro.",
+        "price": 108000,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 15,
+        "brand": "Nike",
+        "categoryId": "retro-selecciones",
+        "type": "retro",
+        "thumbnail": "/images/holanda2006.jpg",
+        "images": [
+            "/images/holanda2006.jpg",
+            "/images/holanda2006_2.jpg",
+            "/images/holanda2006_3.jpg",
+            "/images/holanda2006_4.jpg",
+            "/images/holanda2006_5.jpg"
+        ]
+    }
+]

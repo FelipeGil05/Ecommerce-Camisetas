@@ -1,0 +1,1 @@
+export const FIREBASE_DB_URL = "https://pasion90-cursocoderapp-default-rtdb.firebaseio.com/";
