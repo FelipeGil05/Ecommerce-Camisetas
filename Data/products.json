@@ -10,14 +10,8 @@
         "brand": "Kappa",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/racing1.jpg",
-        "images": [
-            "/images/racing1.jpg",
-            "/images/racing2.jpg",
-            "/images/racing3.jpg",
-            "/images/racing4.jpg",
-            "/images/racing5.jpg"
-        ]
+        "thumbnail": "https://www.opensports.com.ar/media/catalog/product/cache/4cbe9863fc1e4aa316955fdd123a5af3/K/2/K2311N2IWS-KA0VF_0.jpg",
+        "images": []
     },
     {
         "id": 2,
@@ -30,14 +24,8 @@
         "brand": "Kappa",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/racing_alt1.jpg",
-        "images": [
-            "/images/racing_alt1.jpg",
-            "/images/racing_alt2.jpg",
-            "/images/racing_alt3.jpg",
-            "/images/racing_alt4.jpg",
-            "/images/racing_alt5.jpg"
-        ]
+        "thumbnail": "https://deportshow.com.ar/media/catalog/product/cache/8e843cd5219090bda18f6a85ed878ee7/k/2/k2311n2jws-ka06k-1_1_1.png",
+        "images": []
     },
     {
         "id": 3,
@@ -50,14 +38,8 @@
         "brand": "Adidas",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/boca1.jpg",
-        "images": [
-            "/images/boca1.jpg",
-            "/images/boca2.jpg",
-            "/images/boca3.jpg",
-            "/images/boca4.jpg",
-            "/images/boca5.jpg"
-        ]
+        "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/3d8da5516ef14b4297b562d673589641_9366/Camiseta_Titular_Boca_Juniors_25-26_Azul_JJ4286_01_laydown.jpg",
+        "images": []
     },
     {
         "id": 4,
@@ -70,14 +52,8 @@
         "brand": "Adidas",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/river1.jpg",
-        "images": [
-            "/images/river1.jpg",
-            "/images/river2.jpg",
-            "/images/river3.jpg",
-            "/images/river4.jpg",
-            "/images/river5.jpg"
-        ]
+        "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a52c7b4e92734f1d99e5a7b6b8310dd0_9366/Camiseta_Titular_River_Plate_24-25_Blanco_IX5097_01_laydown.jpg",
+        "images": []
     },
     {
         "id": 5,
@@ -87,17 +63,11 @@
         "discountPercentage": 8,
         "rating": 4.6,
         "stock": 18,
-        "brand": "Umbro",
+        "brand": "Le Coq Sportif",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/central1.jpg",
-        "images": [
-            "/images/central1.jpg",
-            "/images/central2.jpg",
-            "/images/central3.jpg",
-            "/images/central4.jpg",
-            "/images/central5.jpg"
-        ]
+        "thumbnail": "https://newsport.vtexassets.com/arquivos/ids/20730064-800-auto?v=638999304104530000&width=800&height=auto&aspect=true",
+        "images": []
     },
     {
         "id": 6,
@@ -107,17 +77,11 @@
         "discountPercentage": 6,
         "rating": 4.6,
         "stock": 22,
-        "brand": "Umbro",
+        "brand": "AIFIT",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/nob1.jpg",
-        "images": [
-            "/images/nob1.jpg",
-            "/images/nob2.jpg",
-            "/images/nob3.jpg",
-            "/images/nob4.jpg",
-            "/images/nob5.jpg"
-        ]
+        "thumbnail": "https://http2.mlstatic.com/D_Q_NP_2X_970517-MLA99658946649_112025-AB.webp",
+        "images": []
     },
     {
         "id": 7,
@@ -130,14 +94,8 @@
         "brand": "Ruge",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/estudiantes1.jpg",
-        "images": [
-            "/images/estudiantes1.jpg",
-            "/images/estudiantes2.jpg",
-            "/images/estudiantes3.jpg",
-            "/images/estudiantes4.jpg",
-            "/images/estudiantes5.jpg"
-        ]
+        "thumbnail": "https://dcdn-us.mitiendanube.com/stores/006/912/889/products/f8327428c2f9fce93bb41ab8f7fcb3365e775537202069f2f9c3b4e0fa15a8951866-8a811673c17927bf6b17637552523687-480-0.webp",
+        "images": []
     },
     {
         "id": 8,
@@ -147,17 +105,11 @@
         "discountPercentage": 5,
         "rating": 4.4,
         "stock": 15,
-        "brand": "Peak",
+        "brand": "Umbro",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/lanus1.jpg",
-        "images": [
-            "/images/lanus1.jpg",
-            "/images/lanus2.jpg",
-            "/images/lanus3.jpg",
-            "/images/lanus4.jpg",
-            "/images/lanus5.jpg"
-        ]
+        "thumbnail": "https://tiendagranate.clublanus.com/wp-content/uploads/2024/12/01.-Camiseta-Home-Umbro-2025-Frente.jpg",
+        "images": []
     },
     {
         "id": 9,
@@ -167,17 +119,11 @@
         "discountPercentage": 6,
         "rating": 4.5,
         "stock": 17,
-        "brand": "Umbro",
+        "brand": "Diadora",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/velez1.jpg",
-        "images": [
-            "/images/velez1.jpg",
-            "/images/velez2.jpg",
-            "/images/velez3.jpg",
-            "/images/velez4.jpg",
-            "/images/velez5.jpg"
-        ]
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_656079-MLA105412148578_012026-T.webp",
+        "images": []
     },
     {
         "id": 10,
@@ -187,17 +133,11 @@
         "discountPercentage": 9,
         "rating": 4.6,
         "stock": 21,
-        "brand": "Nike",
+        "brand": "Atomik",
         "categoryId": "argentina",
         "type": "actual",
-        "thumbnail": "/images/sanlorenzo1.jpg",
-        "images": [
-            "/images/sanlorenzo1.jpg",
-            "/images/sanlorenzo2.jpg",
-            "/images/sanlorenzo3.jpg",
-            "/images/sanlorenzo4.jpg",
-            "/images/sanlorenzo5.jpg"
-        ]
+        "thumbnail": "https://sportline.vtexassets.com/arquivos/ids/1547784/014632004264168_1.jpg?v=638810723148370000",
+        "images": []
     },
     {
         "id": 11,
@@ -210,14 +150,8 @@
         "brand": "Adidas",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/flamengo1.jpg",
-        "images": [
-            "/images/flamengo1.jpg",
-            "/images/flamengo2.jpg",
-            "/images/flamengo3.jpg",
-            "/images/flamengo4.jpg",
-            "/images/flamengo5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/04/23/Lh9Kea9rhzJgDRs.jpg",
+        "images": []
     },
     {
         "id": 12,
@@ -230,14 +164,8 @@
         "brand": "Puma",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/palmeiras1.jpg",
-        "images": [
-            "/images/palmeiras1.jpg",
-            "/images/palmeiras2.jpg",
-            "/images/palmeiras3.jpg",
-            "/images/palmeiras4.jpg",
-            "/images/palmeiras5.jpg"
-        ]
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_840395-MLA86756857988_072025-O.webp",
+        "images": []
     },
     {
         "id": 13,
@@ -250,14 +178,8 @@
         "brand": "Puma",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/penarol1.jpg",
-        "images": [
-            "/images/penarol1.jpg",
-            "/images/penarol2.jpg",
-            "/images/penarol3.jpg",
-            "/images/penarol4.jpg",
-            "/images/penarol5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/04/07/uRiA7nCVwwjZTpV.jpg",
+        "images": []
     },
     {
         "id": 14,
@@ -270,14 +192,8 @@
         "brand": "Umbro",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/nacional1.jpg",
-        "images": [
-            "/images/nacional1.jpg",
-            "/images/nacional2.jpg",
-            "/images/nacional3.jpg",
-            "/images/nacional4.jpg",
-            "/images/nacional5.jpg"
-        ]
+        "thumbnail": "https://soccershopuy.net/cdn/shop/files/nacional_1200x1200.webp?v=1735836448",
+        "images": []
     },
     {
         "id": 15,
@@ -290,14 +206,8 @@
         "brand": "Adidas",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/colocolo1.jpg",
-        "images": [
-            "/images/colocolo1.jpg",
-            "/images/colocolo2.jpg",
-            "/images/colocolo3.jpg",
-            "/images/colocolo4.jpg",
-            "/images/colocolo5.jpg"
-        ]
+        "thumbnail": "https://ds-images.bolavip.com/news/image?src=https://images.bolavip.com/webp/cl/full/BCL_20241118_BCL_278770_Gcn3xZTXYAA5I3Q-1024x1024_5fc79545.webp&width=1024&height=1024",
+        "images": []
     },
     {
         "id": 16,
@@ -310,14 +220,8 @@
         "brand": "Nike",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/atlnacional1.jpg",
-        "images": [
-            "/images/atlnacional1.jpg",
-            "/images/atlnacional2.jpg",
-            "/images/atlnacional3.jpg",
-            "/images/atlnacional4.jpg",
-            "/images/atlnacional5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/01/17/ZSIzsHk0OocHGVx.jpg",
+        "images": []
     },
     {
         "id": 17,
@@ -330,14 +234,8 @@
         "brand": "Adidas",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/millonarios1.jpg",
-        "images": [
-            "/images/millonarios1.jpg",
-            "/images/millonarios2.jpg",
-            "/images/millonarios3.jpg",
-            "/images/millonarios4.jpg",
-            "/images/millonarios5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/03/26/weTlqsCeZYpjU0O.jpg",
+        "images": []
     },
     {
         "id": 18,
@@ -350,14 +248,8 @@
         "brand": "Adidas",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/udechile1.jpg",
-        "images": [
-            "/images/udechile1.jpg",
-            "/images/udechile2.jpg",
-            "/images/udechile3.jpg",
-            "/images/udechile4.jpg",
-            "/images/udechile5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/01/24/3InBuP4NFqOSElN.jpg",
+        "images": []
     },
     {
         "id": 19,
@@ -370,14 +262,8 @@
         "brand": "Puma",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/libertad1.jpg",
-        "images": [
-            "/images/libertad1.jpg",
-            "/images/libertad2.jpg",
-            "/images/libertad3.jpg",
-            "/images/libertad4.jpg",
-            "/images/libertad5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/07/06/DqRhf7cgt7LnPvv.jpg",
+        "images": []
     },
     {
         "id": 20,
@@ -390,14 +276,8 @@
         "brand": "Nike",
         "categoryId": "sudamerica",
         "type": "actual",
-        "thumbnail": "/images/alianza1.jpg",
-        "images": [
-            "/images/alianza1.jpg",
-            "/images/alianza2.jpg",
-            "/images/alianza3.jpg",
-            "/images/alianza4.jpg",
-            "/images/alianza5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/03/31/K61oS1iCOI06Ana.jpg",
+        "images": []
     },
     {
         "id": 21,
@@ -410,14 +290,8 @@
         "brand": "Adidas",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/intermiami1.jpg",
-        "images": [
-            "/images/intermiami1.jpg",
-            "/images/intermiami2.jpg",
-            "/images/intermiami3.jpg",
-            "/images/intermiami4.jpg",
-            "/images/intermiami5.jpg"
-        ]
+        "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/48b855433bd84d948908b2b3ba5ffc50_9366/Camiseta_Local_Inter_Miami_CF_24-25_Authentic_Rosa_IU0189_01_laydown.jpg",
+        "images": []
     },
     {
         "id": 22,
@@ -430,14 +304,8 @@
         "brand": "Adidas",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/atlanta1.jpg",
-        "images": [
-            "/images/atlanta1.jpg",
-            "/images/atlanta2.jpg",
-            "/images/atlanta3.jpg",
-            "/images/atlanta4.jpg",
-            "/images/atlanta5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/02/16/QVIyK5O5H6TpKJ6.jpg",
+        "images": []
     },
     {
         "id": 23,
@@ -450,14 +318,8 @@
         "brand": "Adidas",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/lafc1.jpg",
-        "images": [
-            "/images/lafc1.jpg",
-            "/images/lafc2.jpg",
-            "/images/lafc3.jpg",
-            "/images/lafc4.jpg",
-            "/images/lafc5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/01/01/W6746yBMdGLCnRr.jpg",
+        "images": []
     },
     {
         "id": 24,
@@ -467,17 +329,11 @@
         "discountPercentage": 12,
         "rating": 4.8,
         "stock": 28,
-        "brand": "Nike",
+        "brand": "Adidas",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/america1.jpg",
-        "images": [
-            "/images/america1.jpg",
-            "/images/america2.jpg",
-            "/images/america3.jpg",
-            "/images/america4.jpg",
-            "/images/america5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/07/02/ugxhcaCaG9PhLW5.jpg",
+        "images": []
     },
     {
         "id": 25,
@@ -487,17 +343,11 @@
         "discountPercentage": 9,
         "rating": 4.6,
         "stock": 21,
-        "brand": "Puma",
+        "brand": "Pirma",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/cruzazul1.jpg",
-        "images": [
-            "/images/cruzazul1.jpg",
-            "/images/cruzazul2.jpg",
-            "/images/cruzazul3.jpg",
-            "/images/cruzazul4.jpg",
-            "/images/cruzazul5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/134/318/products/photoroom-20240728_203426-89b2a10ba0f74ab26717222364756446-1024-1024.webp",
+        "images": []
     },
     {
         "id": 26,
@@ -510,14 +360,8 @@
         "brand": "Puma",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/monterrey1.jpg",
-        "images": [
-            "/images/monterrey1.jpg",
-            "/images/monterrey2.jpg",
-            "/images/monterrey3.jpg",
-            "/images/monterrey4.jpg",
-            "/images/monterrey5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/07/09/QeYATXOvvQPx0FQ.jpg",
+        "images": []
     },
     {
         "id": 27,
@@ -530,14 +374,8 @@
         "brand": "Charly",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/pachuca1.jpg",
-        "images": [
-            "/images/pachuca1.jpg",
-            "/images/pachuca2.jpg",
-            "/images/pachuca3.jpg",
-            "/images/pachuca4.jpg",
-            "/images/pachuca5.jpg"
-        ]
+        "thumbnail": "https://www.tudnfanshop.com/cdn/shop/files/BLU_8e99992f-f3fb-408e-a852-c6463f5c08b1.png?v=1746728771&width=1500",
+        "images": []
     },
     {
         "id": 28,
@@ -550,14 +388,8 @@
         "brand": "Charly",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/atlas1.jpg",
-        "images": [
-            "/images/atlas1.jpg",
-            "/images/atlas2.jpg",
-            "/images/atlas3.jpg",
-            "/images/atlas4.jpg",
-            "/images/atlas5.jpg"
-        ]
+        "thumbnail": "https://atlasfcshop.mx/cdn/shop/files/5020046600_6.jpg?v=1719941125&width=533",
+        "images": []
     },
     {
         "id": 29,
@@ -570,14 +402,8 @@
         "brand": "Nike",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/pumas1.jpg",
-        "images": [
-            "/images/pumas1.jpg",
-            "/images/pumas2.jpg",
-            "/images/pumas3.jpg",
-            "/images/pumas4.jpg",
-            "/images/pumas5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/06/28/W4MFVWwhsZJPTyt.jpg",
+        "images": []
     },
     {
         "id": 30,
@@ -590,14 +416,8 @@
         "brand": "Adidas",
         "categoryId": "norteamerica",
         "type": "actual",
-        "thumbnail": "/images/lagalaxy1.jpg",
-        "images": [
-            "/images/lagalaxy1.jpg",
-            "/images/lagalaxy2.jpg",
-            "/images/lagalaxy3.jpg",
-            "/images/lagalaxy4.jpg",
-            "/images/lagalaxy5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/01/01/1SkmPcrnhQFXrtF.jpg",
+        "images": []
     },
     {
         "id": 31,
@@ -610,14 +430,8 @@
         "brand": "Nike",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/barcelona1.jpg",
-        "images": [
-            "/images/barcelona1.jpg",
-            "/images/barcelona2.jpg",
-            "/images/barcelona3.jpg",
-            "/images/barcelona4.jpg",
-            "/images/barcelona5.jpg"
-        ]
+        "thumbnail": "https://tirolibreuy.com/cdn/shop/files/maillot-fc-barcelone-domicile-2024-25.webp?v=1724704844",
+        "images": []
     },
     {
         "id": 32,
@@ -630,14 +444,8 @@
         "brand": "Adidas",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/realmadrid1.jpg",
-        "images": [
-            "/images/realmadrid1.jpg",
-            "/images/realmadrid2.jpg",
-            "/images/realmadrid3.jpg",
-            "/images/realmadrid4.jpg",
-            "/images/realmadrid5.jpg"
-        ]
+        "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f24d1c69aa8a42a79b70aa983d5e8ec3_faec/camiseta_titular_del_Real_Madrid_25-26_version_jugador_Blanco_JV5918_db01_laydown.jpg",
+        "images": []
     },
     {
         "id": 33,
@@ -647,17 +455,11 @@
         "discountPercentage": 12,
         "rating": 4.8,
         "stock": 24,
-        "brand": "Nike",
+        "brand": "Adidas",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/liverpool1.jpg",
-        "images": [
-            "/images/liverpool1.jpg",
-            "/images/liverpool2.jpg",
-            "/images/liverpool3.jpg",
-            "/images/liverpool4.jpg",
-            "/images/liverpool5.jpg"
-        ]
+        "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/f54aaf314c3045d29ab6ad15ff1f4e20_9366/Camiseta_Titular_Liverpool_FC_25-26_Rojo_JV6423_01_laydown.jpg",
+        "images": []
     },
     {
         "id": 34,
@@ -670,14 +472,8 @@
         "brand": "Adidas",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/bayern1.jpg",
-        "images": [
-            "/images/bayern1.jpg",
-            "/images/bayern2.jpg",
-            "/images/bayern3.jpg",
-            "/images/bayern4.jpg",
-            "/images/bayern5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/06/10/t85ZN1ST688zPI4.jpg",
+        "images": []
     },
     {
         "id": 35,
@@ -690,14 +486,8 @@
         "brand": "Nike",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/inter1.jpg",
-        "images": [
-            "/images/inter1.jpg",
-            "/images/inter2.jpg",
-            "/images/inter3.jpg",
-            "/images/inter4.jpg",
-            "/images/inter5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/148/125/products/cax-2640-f-da3a423a8a163a3f9a17487326160130-480-0.webp",
+        "images": []
     },
     {
         "id": 36,
@@ -710,14 +500,8 @@
         "brand": "Nike",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/psg1.jpg",
-        "images": [
-            "/images/psg1.jpg",
-            "/images/psg2.jpg",
-            "/images/psg3.jpg",
-            "/images/psg4.jpg",
-            "/images/psg5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/06/11/SD7apODTyteFqwx.jpg",
+        "images": []
     },
     {
         "id": 37,
@@ -730,14 +514,8 @@
         "brand": "Adidas",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/manunited1.jpg",
-        "images": [
-            "/images/manunited1.jpg",
-            "/images/manunited2.jpg",
-            "/images/manunited3.jpg",
-            "/images/manunited4.jpg",
-            "/images/manunited5.jpg"
-        ]
+        "thumbnail": "https://assets.adidas.com/images/w_600,f_auto,q_auto/bbbf337d031a48b79aa8a7ecc0d0db2b_faec/Camiseta_Local_Manchester_United_24-25_Rojo_IU1397_db01_laydown.jpg",
+        "images": []
     },
     {
         "id": 38,
@@ -750,14 +528,8 @@
         "brand": "Puma",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/mancity1.jpg",
-        "images": [
-            "/images/mancity1.jpg",
-            "/images/mancity2.jpg",
-            "/images/mancity3.jpg",
-            "/images/mancity4.jpg",
-            "/images/mancity5.jpg"
-        ]
+        "thumbnail": "https://www.opensports.com.ar/media/catalog/product/cache/4cbe9863fc1e4aa316955fdd123a5af3/7/8/78034101_0.jpg",
+        "images": []
     },
     {
         "id": 39,
@@ -770,14 +542,8 @@
         "brand": "Puma",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/milan1.jpg",
-        "images": [
-            "/images/milan1.jpg",
-            "/images/milan2.jpg",
-            "/images/milan3.jpg",
-            "/images/milan4.jpg",
-            "/images/milan5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/11/19/y5CQI3HOBiDQYTj.jpg",
+        "images": []
     },
     {
         "id": 40,
@@ -790,14 +556,8 @@
         "brand": "Adidas",
         "categoryId": "europa",
         "type": "actual",
-        "thumbnail": "/images/juventus1.jpg",
-        "images": [
-            "/images/juventus1.jpg",
-            "/images/juventus2.jpg",
-            "/images/juventus3.jpg",
-            "/images/juventus4.jpg",
-            "/images/juventus5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/05/14/yZ1p0h221LpPxht.jpg",
+        "images": []
     },
     {
         "id": 41,
@@ -810,14 +570,8 @@
         "brand": "Adidas",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/arg1.jpg",
-        "images": [
-            "/images/arg1.jpg",
-            "/images/arg2.jpg",
-            "/images/arg3.jpg",
-            "/images/arg4.jpg",
-            "/images/arg5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/005/613/720/products/ka8116-1-4-748f34a53c6f4497e617624339039972-1024-1024.webp",
+        "images": []
     },
     {
         "id": 42,
@@ -830,14 +584,8 @@
         "brand": "Nike",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/brasil1.jpg",
-        "images": [
-            "/images/brasil1.jpg",
-            "/images/brasil2.jpg",
-            "/images/brasil3.jpg",
-            "/images/brasil4.jpg",
-            "/images/brasil5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/001/613/085/products/dsc_0048-9ef48ec20a36df078b17546762762155-1024-1024.webp",
+        "images": []
     },
     {
         "id": 43,
@@ -850,14 +598,8 @@
         "brand": "Nike",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/francia1.jpg",
-        "images": [
-            "/images/francia1.jpg",
-            "/images/francia2.jpg",
-            "/images/francia3.jpg",
-            "/images/francia4.jpg",
-            "/images/francia5.jpg"
-        ]
+        "thumbnail": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwc5201d4a/products/NIFJ1259-452/NIFJ1259-452-1.JPG",
+        "images": []
     },
     {
         "id": 44,
@@ -870,14 +612,8 @@
         "brand": "Adidas",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/espana1.jpg",
-        "images": [
-            "/images/espana1.jpg",
-            "/images/espana2.jpg",
-            "/images/espana3.jpg",
-            "/images/espana4.jpg",
-            "/images/espana5.jpg"
-        ]
+        "thumbnail": "https://static1.cdn-subsidesports.com/2/media/catalog/product/cache/abbf5437a995fd7cabd85bbbc7fdfb0f/5/f/5f8e0c864b33a9ef4c08ba28e38036c0fadf76f4ed7c1825e36a8d4073ca0ab9.jpeg",
+        "images": []
     },
     {
         "id": 45,
@@ -890,14 +626,8 @@
         "brand": "Adidas",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/alemania1.jpg",
-        "images": [
-            "/images/alemania1.jpg",
-            "/images/alemania2.jpg",
-            "/images/alemania3.jpg",
-            "/images/alemania4.jpg",
-            "/images/alemania5.jpg"
-        ]
+        "thumbnail": "https://foot-star.com/wp-content/uploads/2025/11/Maillot-Match-Allemagne-Domicile-2025-2026-1.jpg",
+        "images": []
     },
     {
         "id": 46,
@@ -907,17 +637,11 @@
         "discountPercentage": 10,
         "rating": 4.7,
         "stock": 22,
-        "brand": "Puma",
+        "brand": "Adidas",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/italia1.jpg",
-        "images": [
-            "/images/italia1.jpg",
-            "/images/italia2.jpg",
-            "/images/italia3.jpg",
-            "/images/italia4.jpg",
-            "/images/italia5.jpg"
-        ]
+        "thumbnail": "https://footdealer.co/wp-content/uploads/2025/11/Maillot-Italie-Domicile-2025-2026-1.jpg",
+        "images": []
     },
     {
         "id": 47,
@@ -930,14 +654,8 @@
         "brand": "Nike",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/inglaterra1.jpg",
-        "images": [
-            "/images/inglaterra1.jpg",
-            "/images/inglaterra2.jpg",
-            "/images/inglaterra3.jpg",
-            "/images/inglaterra4.jpg",
-            "/images/inglaterra5.jpg"
-        ]
+        "thumbnail": "https://images.footballfanatics.com/england-national-team/england-nike-dri-fit-adv-home-match-shirt-2025-with-saka-7-printing_ss5_p-201716728+pv-2+u-eiek6kbc7ca5fceuagsa+v-yj2ezbbki0zattn0ap1p.jpg?_hv=2&w=1018",
+        "images": []
     },
     {
         "id": 48,
@@ -947,17 +665,11 @@
         "discountPercentage": 9,
         "rating": 4.6,
         "stock": 20,
-        "brand": "Puma",
+        "brand": "Nike",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/uruguay1.jpg",
-        "images": [
-            "/images/uruguay1.jpg",
-            "/images/uruguay2.jpg",
-            "/images/uruguay3.jpg",
-            "/images/uruguay4.jpg",
-            "/images/uruguay5.jpg"
-        ]
+        "thumbnail": "https://foot-star.com/wp-content/uploads/2025/10/Maillot-Uruguay-Domicile-2025-2026-1.jpg",
+        "images": []
     },
     {
         "id": 49,
@@ -970,14 +682,8 @@
         "brand": "Nike",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/holanda1.jpg",
-        "images": [
-            "/images/holanda1.jpg",
-            "/images/holanda2.jpg",
-            "/images/holanda3.jpg",
-            "/images/holanda4.jpg",
-            "/images/holanda5.jpg"
-        ]
+        "thumbnail": "https://footdealer.co/wp-content/uploads/2024/04/Maillot-Pays-Bas-Domicile-Euro-2024-2-1.jpg",
+        "images": []
     },
     {
         "id": 50,
@@ -990,14 +696,8 @@
         "brand": "Nike",
         "categoryId": "selecciones",
         "type": "actual",
-        "thumbnail": "/images/croacia1.jpg",
-        "images": [
-            "/images/croacia1.jpg",
-            "/images/croacia2.jpg",
-            "/images/croacia3.jpg",
-            "/images/croacia4.jpg",
-            "/images/croacia5.jpg"
-        ]
+        "thumbnail": "https://resources.claroshop.com/medios-plazavip/t1/1716855230M4JcW9RdgveAu6Pjpg",
+        "images": []
     },
     {
         "id": 51,
@@ -1010,14 +710,8 @@
         "brand": "Nike",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/barca2009.jpg",
-        "images": [
-            "/images/barca2009.jpg",
-            "/images/barca2009_2.jpg",
-            "/images/barca2009_3.jpg",
-            "/images/barca2009_4.jpg",
-            "/images/barca2009_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2020/09/30/lvXstaQC34hLyii.jpg",
+        "images": []
     },
     {
         "id": 52,
@@ -1030,14 +724,8 @@
         "brand": "Adidas",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/milan2009.jpg",
-        "images": [
-            "/images/milan2009.jpg",
-            "/images/milan2009_2.jpg",
-            "/images/milan2009_3.jpg",
-            "/images/milan2009_4.jpg",
-            "/images/milan2009_5.jpg"
-        ]
+        "thumbnail": "https://cloudjersey.com/wp-content/uploads/2024/11/camiseta-milan-2009-10-local.webp",
+        "images": []
     },
     {
         "id": 53,
@@ -1050,14 +738,8 @@
         "brand": "NR",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/napoli1987.jpg",
-        "images": [
-            "/images/napoli1987.jpg",
-            "/images/napoli1987_2.jpg",
-            "/images/napoli1987_3.jpg",
-            "/images/napoli1987_4.jpg",
-            "/images/napoli1987_5.jpg"
-        ]
+        "thumbnail": "https://nrclassico.com/wp-content/uploads/2021/05/Shirt-Napoli-87_88_wit.jpeg",
+        "images": []
     },
     {
         "id": 54,
@@ -1070,14 +752,8 @@
         "brand": "Nike",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/manutd2008.jpg",
-        "images": [
-            "/images/manutd2008.jpg",
-            "/images/manutd2008_2.jpg",
-            "/images/manutd2008_3.jpg",
-            "/images/manutd2008_4.jpg",
-            "/images/manutd2008_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/03/18/q96eEcqhaioKV9A.jpg",
+        "images": []
     },
     {
         "id": 55,
@@ -1090,14 +766,8 @@
         "brand": "Adidas",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/realmadrid2018.jpg",
-        "images": [
-            "/images/realmadrid2018.jpg",
-            "/images/realmadrid2018_2.jpg",
-            "/images/realmadrid2018_3.jpg",
-            "/images/realmadrid2018_4.jpg",
-            "/images/realmadrid2018_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/269/759/products/tit-17-18-retro-1-dc9ff7c265df39bf7e17075470208353-1024-1024.webp",
+        "images": []
     },
     {
         "id": 56,
@@ -1110,14 +780,8 @@
         "brand": "Nike",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/arsenal2005.jpg",
-        "images": [
-            "/images/arsenal2005.jpg",
-            "/images/arsenal2005_2.jpg",
-            "/images/arsenal2005_3.jpg",
-            "/images/arsenal2005_4.jpg",
-            "/images/arsenal2005_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/872/034/products/06-asn-home1-e6d6404c798637b34316781517745545-640-0.webp",
+        "images": []
     },
     {
         "id": 57,
@@ -1130,14 +794,8 @@
         "brand": "Adidas",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/juve2018.jpg",
-        "images": [
-            "/images/juve2018.jpg",
-            "/images/juve2018_2.jpg",
-            "/images/juve2018_3.jpg",
-            "/images/juve2018_4.jpg",
-            "/images/juve2018_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/358/419/products/2d9a6916_700x-5a9f84767f0f3a136517107089540095-1024-1024.webp",
+        "images": []
     },
     {
         "id": 58,
@@ -1150,14 +808,8 @@
         "brand": "Nike",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/inter1999.jpg",
-        "images": [
-            "/images/inter1999.jpg",
-            "/images/inter1999_2.jpg",
-            "/images/inter1999_3.jpg",
-            "/images/inter1999_4.jpg",
-            "/images/inter1999_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/615/161/products/117b6c12-0caee9bf77aba9e37617168660355808-1024-1024.webp",
+        "images": []
     },
     {
         "id": 59,
@@ -1170,14 +822,8 @@
         "brand": "Nike",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/mancity2013.jpg",
-        "images": [
-            "/images/mancity2013.jpg",
-            "/images/mancity2013_2.jpg",
-            "/images/mancity2013_3.jpg",
-            "/images/mancity2013_4.jpg",
-            "/images/mancity2013_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2019/06/e8fGXJ7zk2UPXk4.jpg",
+        "images": []
     },
     {
         "id": 60,
@@ -1190,14 +836,8 @@
         "brand": "Nike",
         "categoryId": "retro-europa",
         "type": "retro",
-        "thumbnail": "/images/barca2016.jpg",
-        "images": [
-            "/images/barca2016.jpg",
-            "/images/barca2016_2.jpg",
-            "/images/barca2016_3.jpg",
-            "/images/barca2016_4.jpg",
-            "/images/barca2016_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/11/19/sdbk1v90C5YnEtJ.jpg",
+        "images": []
     },
     {
         "id": 61,
@@ -1210,14 +850,8 @@
         "brand": "Umbro",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/santos2011.jpg",
-        "images": [
-            "/images/santos2011.jpg",
-            "/images/santos2011_2.jpg",
-            "/images/santos2011_3.jpg",
-            "/images/santos2011_4.jpg",
-            "/images/santos2011_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/08/18/xtysV4E5nEZieWs.jpg",
+        "images": []
     },
     {
         "id": 62,
@@ -1230,14 +864,8 @@
         "brand": "Nike",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/boca2001.jpg",
-        "images": [
-            "/images/boca2001.jpg",
-            "/images/boca2001_2.jpg",
-            "/images/boca2001_3.jpg",
-            "/images/boca2001_4.jpg",
-            "/images/boca2001_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/003/574/products/boca-juniors-titular-retro-2001-10-roman-1-jpeg-bad8696770a792546117188351214809-1024-1024.webp",
+        "images": []
     },
     {
         "id": 63,
@@ -1250,14 +878,8 @@
         "brand": "Adidas",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/nob1993.jpg",
-        "images": [
-            "/images/nob1993.jpg",
-            "/images/nob1993_2.jpg",
-            "/images/nob1993_3.jpg",
-            "/images/nob1993_4.jpg",
-            "/images/nob1993_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/347/029/products/img_9695-379c88bae7c755ac7117390340791150-1024-1024.webp",
+        "images": []
     },
     {
         "id": 64,
@@ -1270,14 +892,8 @@
         "brand": "Adidas",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/river2018.jpg",
-        "images": [
-            "/images/river2018.jpg",
-            "/images/river2018_2.jpg",
-            "/images/river2018_3.jpg",
-            "/images/river2018_4.jpg",
-            "/images/river2018_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/615/161/products/60e7ba4c-3bcd-4f22-8bd4-6108f1ec4174-be2ec443943ce265cd17225343344931-640-0-5d10c29714762fa57d17329839412620-640-0.webp",
+        "images": []
     },
     {
         "id": 65,
@@ -1290,14 +906,8 @@
         "brand": "Topper",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/racing2001.jpg",
-        "images": [
-            "/images/racing2001.jpg",
-            "/images/racing2001_2.jpg",
-            "/images/racing2001_3.jpg",
-            "/images/racing2001_4.jpg",
-            "/images/racing2001_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/615/161/products/whatsapp-image-2025-10-14-at-13-05-25-cb2704a3fa7ceb26d017604579720317-1024-1024.webp",
+        "images": []
     },
     {
         "id": 66,
@@ -1307,17 +917,11 @@
         "discountPercentage": 5,
         "rating": 4.7,
         "stock": 15,
-        "brand": "Nike",
+        "brand": "Kappa",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/central2008.jpg",
-        "images": [
-            "/images/central2008.jpg",
-            "/images/central2008_2.jpg",
-            "/images/central2008_3.jpg",
-            "/images/central2008_4.jpg",
-            "/images/central2008_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2022/05/13/NVQW2Yr3ehpE827.jpg",
+        "images": []
     },
     {
         "id": 67,
@@ -1330,14 +934,8 @@
         "brand": "Topper",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/racing2001s.jpg",
-        "images": [
-            "/images/racing2001s.jpg",
-            "/images/racing2001s_2.jpg",
-            "/images/racing2001s_3.jpg",
-            "/images/racing2001s_4.jpg",
-            "/images/racing2001s_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/216/721/products/1000956176-d612799998d3d099f817617683377590-480-0.webp",
+        "images": []
     },
     {
         "id": 68,
@@ -1347,17 +945,11 @@
         "discountPercentage": 5,
         "rating": 4.7,
         "stock": 16,
-        "brand": "Nike",
+        "brand": "Signia",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/sl2003.jpg",
-        "images": [
-            "/images/sl2003.jpg",
-            "/images/sl2003_2.jpg",
-            "/images/sl2003_3.jpg",
-            "/images/sl2003_4.jpg",
-            "/images/sl2003_5.jpg"
-        ]
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_979689-MLA85043071271_052025-O.webp",
+        "images": []
     },
     {
         "id": 69,
@@ -1370,14 +962,8 @@
         "brand": "Topper",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/racing2004.jpg",
-        "images": [
-            "/images/racing2004.jpg",
-            "/images/racing2004_2.jpg",
-            "/images/racing2004_3.jpg",
-            "/images/racing2004_4.jpg",
-            "/images/racing2004_5.jpg"
-        ]
+        "thumbnail": "https://www.oldfootballshirts.com/img/shirts/536/racing-club-home-football-shirt-2004-2005-s_1701_1.jpg",
+        "images": []
     },
     {
         "id": 70,
@@ -1390,14 +976,8 @@
         "brand": "Nike",
         "categoryId": "retro-sudamerica",
         "type": "retro",
-        "thumbnail": "/images/boca2000.jpg",
-        "images": [
-            "/images/boca2000.jpg",
-            "/images/boca2000_2.jpg",
-            "/images/boca2000_3.jpg",
-            "/images/boca2000_4.jpg",
-            "/images/boca2000_5.jpg"
-        ]
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_602629-MLA77628725528_072024-O.webp",
+        "images": []
     },
     {
         "id": 71,
@@ -1410,14 +990,8 @@
         "brand": "Adidas",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/arg1994.jpg",
-        "images": [
-            "/images/arg1994.jpg",
-            "/images/arg1994_2.jpg",
-            "/images/arg1994_3.jpg",
-            "/images/arg1994_4.jpg",
-            "/images/arg1994_5.jpg"
-        ]
+        "thumbnail": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw8f966e3f/products/ADIS0266/ADIS0266-1.JPG",
+        "images": []
     },
     {
         "id": 72,
@@ -1430,14 +1004,8 @@
         "brand": "Adidas",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/arg2006.jpg",
-        "images": [
-            "/images/arg2006.jpg",
-            "/images/arg2006_2.jpg",
-            "/images/arg2006_3.jpg",
-            "/images/arg2006_4.jpg",
-            "/images/arg2006_5.jpg"
-        ]
+        "thumbnail": "https://camisetasfutbolbaloncesto.com/cdn/shop/files/f66e46a7-PhotoRoom.png-PhotoRoom.png?v=1682590099",
+        "images": []
     },
     {
         "id": 73,
@@ -1450,14 +1018,8 @@
         "brand": "Adidas",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/francia2006.jpg",
-        "images": [
-            "/images/francia2006.jpg",
-            "/images/francia2006_2.jpg",
-            "/images/francia2006_3.jpg",
-            "/images/francia2006_4.jpg",
-            "/images/francia2006_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/269/759/products/sup-2006-retro-1-d77b1b0fdbfa0128af17078899583798-640-0.webp",
+        "images": []
     },
     {
         "id": 74,
@@ -1470,14 +1032,8 @@
         "brand": "Nike",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/brasil2002.jpg",
-        "images": [
-            "/images/brasil2002.jpg",
-            "/images/brasil2002_2.jpg",
-            "/images/brasil2002_3.jpg",
-            "/images/brasil2002_4.jpg",
-            "/images/brasil2002_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/269/759/products/tit-02-retro-1-2295318e5b3fabb93317075620751269-1024-1024.webp",
+        "images": []
     },
     {
         "id": 75,
@@ -1490,14 +1046,8 @@
         "brand": "Nike",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/portugal2016.jpg",
-        "images": [
-            "/images/portugal2016.jpg",
-            "/images/portugal2016_2.jpg",
-            "/images/portugal2016_3.jpg",
-            "/images/portugal2016_4.jpg",
-            "/images/portugal2016_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/004/615/161/products/441eb6ea-efe437d29f659e39a917168334428931-1024-1024.webp",
+        "images": []
     },
     {
         "id": 76,
@@ -1510,14 +1060,8 @@
         "brand": "Adidas",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/alemania2006.jpg",
-        "images": [
-            "/images/alemania2006.jpg",
-            "/images/alemania2006_2.jpg",
-            "/images/alemania2006_3.jpg",
-            "/images/alemania2006_4.jpg",
-            "/images/alemania2006_5.jpg"
-        ]
+        "thumbnail": "https://www.camisetasfutbolybaloncesto.com/wp-content/uploads/2023/10/055bb0a1.jpg",
+        "images": []
     },
     {
         "id": 77,
@@ -1530,14 +1074,8 @@
         "brand": "Nike",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/italia1998.jpg",
-        "images": [
-            "/images/italia1998.jpg",
-            "/images/italia1998_2.jpg",
-            "/images/italia1998_3.jpg",
-            "/images/italia1998_4.jpg",
-            "/images/italia1998_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/872/034/products/77f53e4211-eb21116f0a8eb1d07d16789721446200-1024-1024.webp",
+        "images": []
     },
     {
         "id": 78,
@@ -1550,14 +1088,8 @@
         "brand": "Adidas",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/arg2014s.jpg",
-        "images": [
-            "/images/arg2014s.jpg",
-            "/images/arg2014s_2.jpg",
-            "/images/arg2014s_3.jpg",
-            "/images/arg2014s_4.jpg",
-            "/images/arg2014s_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/872/034/products/58b0d669-5b5cc1f3cfb402ee3e17314477524789-1024-1024.webp",
+        "images": []
     },
     {
         "id": 79,
@@ -1570,14 +1102,8 @@
         "brand": "Adidas",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/espana2010.jpg",
-        "images": [
-            "/images/espana2010.jpg",
-            "/images/espana2010_2.jpg",
-            "/images/espana2010_3.jpg",
-            "/images/espana2010_4.jpg",
-            "/images/espana2010_5.jpg"
-        ]
+        "thumbnail": "https://acdn-us.mitiendanube.com/stores/002/042/897/products/y-espana-20101-53ce938e4ccb9907e816776426004388-1024-1024.webp",
+        "images": []
     },
     {
         "id": 80,
@@ -1590,13 +1116,7 @@
         "brand": "Nike",
         "categoryId": "retro-selecciones",
         "type": "retro",
-        "thumbnail": "/images/holanda2006.jpg",
-        "images": [
-            "/images/holanda2006.jpg",
-            "/images/holanda2006_2.jpg",
-            "/images/holanda2006_3.jpg",
-            "/images/holanda2006_4.jpg",
-            "/images/holanda2006_5.jpg"
-        ]
+        "thumbnail": "https://cdn.footballkitarchive.com/2025/08/25/9eZzSfGxrUJ048V.jpg",
+        "images": []
     }
 ]
