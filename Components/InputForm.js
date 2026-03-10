@@ -1,8 +1,9 @@
 import React from 'react'
-import { Text, TextImput, View, StyleSheet } from 'react-native'
+import { Text, TextInput, View, StyleSheet } from 'react-native'
 import { useState } from 'react';
+import { colors } from '../Global/colors';
 
-export default function InputForm({ label, onChange, error='', isSecure=false }) {
+export default function InputForm({ label, onChange, error='', isSecure=false, style }) {
     const [input, setInput] = useState("");
 
     const onChangeText = (text) => {
@@ -12,12 +13,14 @@ export default function InputForm({ label, onChange, error='', isSecure=false })
 
     return (
         <View style={styles.inputContainer}>
-            <Text style={styles.sub}>{label}</Text>
-            <TextImput 
-            styles={styles.input}
+            <Text style={styles.label}>{label}</Text>
+            <TextInput 
+            style={[styles.input, style]}
             value={input}
             onChangeText={ onChangeText } 
             secureTextEntry={isSecure}  
+            placeholder={label}
+            placeholderTextColor={colors.gris}
             />
             { error ? 
                 <Text style={styles.error}>{ error }</Text>
@@ -29,23 +32,28 @@ export default function InputForm({ label, onChange, error='', isSecure=false })
 
 const styles = StyleSheet.create({
     inputContainer: {
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        width: "100%"
+        width: "100%",
+        marginBottom: 10
     },
-    sub: {
-        width: "80%",
-        fontSize: 14
+    label: {
+        fontSize: 14,
+        marginBottom: 5,
+        color: colors.verde
     },
     input: {
-        width: "80%",
-        borderWidth: 0,
-        borderBottomColor: colors.verde,
-        fontSize: 14
+        width: "100%",
+        backgroundColor: colors.amarillo,
+        borderRadius: 8,
+        padding: 10,
+        borderWidth: 1,
+        borderColor: colors.verde,
+        fontSize: 14,
+        color: colors.text,
+        placeholderTextColor: colors.negro
     },
     error: {
         fontSize: 14,
-        color: "red"
+        color: "red",
+        marginTop: 4
     }
 });

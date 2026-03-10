@@ -13,7 +13,7 @@ export default function ShopStack() {
     return (
         <Stack.Navigator
             screenOptions={{
-                headerShown: false, // usamos cabecera global en App.js
+                headerShown: false,
             }}
         >
             <Stack.Screen name="Home" component={Home} options={{ title: "Categories" }} />

@@ -1,6 +1,6 @@
 // Mock data luego lo vamos a reemplazar por Redux/Firebase
 
-import products from "./products2.json";
+import products from "./products.json";
 
 export const cartItems = [
     { ...products[0], quantity: 1 },

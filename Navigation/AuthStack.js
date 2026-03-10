@@ -12,7 +12,7 @@ export default function AuthStack() {
         <Stack.Navigator
         initialRouteName='Login'
             screenOptions={{
-                header: ( { route }) => <Header title={route.name} />,
+                header: ( { route }) => <Header title='Bienvenido' />,
             }}
         > 
             <Stack.Screen name="Login" component={Login}/>

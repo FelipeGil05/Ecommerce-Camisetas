@@ -19,6 +19,7 @@ export default function TabNavigator() {
                     backgroundColor: colors.gris,
                     borderTopColor: "transparent",
                     height: 60,
+                    pointerEvents: "auto",
                 },
                 tabBarIcon: ({ focused, size }) => {
                     let iconName = "home";
