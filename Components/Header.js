@@ -14,6 +14,8 @@ export default function Header({ navigation }) {
     const isLogged = useSelector(state => state.auth.isLogged);
     const dispatch = useDispatch();
     const user = useSelector(state => state.auth.user);
+    const [categoriesMenuVisible, setCategoriesMenuVisible] = useState(false);
+    const categoriesSlideAnim = useRef(new Animated.Value(-300)).current;
 
     const navToTab = (tabName, params) => {
         navigation.navigate('Main', {
@@ -45,6 +47,14 @@ export default function Header({ navigation }) {
             duration: 250,
             useNativeDriver: true
         }).start(() => setAccountMenuVisible(false));
+    };
+
+    const closeCategoriesMenu = () => {
+        Animated.timing(categoriesSlideAnim, {
+            toValue: -300,
+            duration: 250,
+            useNativeDriver: true
+        }).start(() => setCategoriesMenuVisible(false));
     };
 
     const handleLogout = () => {
@@ -110,35 +120,58 @@ export default function Header({ navigation }) {
             </View>
 
             <View style={styles.menuRow}>
-                <Pressable onPress={() => setDropdownVisible(true)} style={styles.menuButton}>
+                <Pressable
+                    style={styles.menuButton}
+                    onPress={() => {
+                        setCategoriesMenuVisible(true);
+                        Animated.spring(categoriesSlideAnim, {
+                            toValue: 0,
+                            useNativeDriver: true,
+                            friction: 8
+                        }).start();
+                    }}
+                >
                     <Ionicons name="menu" size={28} color={colors.blanco} />
                 </Pressable>
 
                 <Modal
-                    visible={dropdownVisible}
+                    visible={categoriesMenuVisible}
                     transparent
-                    animationType="fade"
-                    onRequestClose={() => setDropdownVisible(false)}
+                    animationType="none"
+                    onRequestClose={closeCategoriesMenu}
                 >
-                    <Pressable style={styles.modalOverlay} onPress={() => setDropdownVisible(false)}>
-                        <View style={styles.dropdownContainer}>
+                    <View style={styles.sideMenuOverlay}>
+                        <Animated.View
+                            style={[
+                                styles.categoriesMenuContainer,
+                                { transform: [{ translateX: categoriesSlideAnim }] }
+                            ]}
+                        >
+                            <Text style={styles.sideMenuTitle}>Categorías</Text>
                             {categories.map((cat) => (
                                 <Pressable
                                     key={cat.id}
+                                    style={styles.categoryItem}
                                     onPress={() => {
-                                        setDropdownVisible(false);
+                                        closeCategoriesMenu();
                                         navToTab('Shop', {
                                             screen: 'ItemListCategory',
                                             params: { category: cat, q: '' },
                                         });
                                     }}
-                                    style={styles.dropdownItem}
                                 >
+                                    <Ionicons name="football-outline" size={20} color={colors.amarillo} />
                                     <Text style={styles.menuText}>{cat.name}</Text>
+                                    <Ionicons name="chevron-forward" size={18} color={colors.blanco} />
                                 </Pressable>
                             ))}
-                        </View>
-                    </Pressable>
+                        </Animated.View>
+                        
+                        <Pressable
+                            style={styles.sideMenuBackground}
+                            onPress={closeCategoriesMenu}
+                        />
+                    </View>
                 </Modal>
             </View>
 
@@ -179,7 +212,7 @@ export default function Header({ navigation }) {
                                 </View>
                             </>
 
-                        ) : ( 
+                        ) : (
 
                             <>
                                 <View>
@@ -279,14 +312,24 @@ const styles = StyleSheet.create({
     },
     dropdownContainer: {
         backgroundColor: colors.text,
-        borderRadius: 8,
-        padding: 12,
-        width: '80%',
+        borderRadius: 14,
+        padding: 16,
+        width: '85%',
+        shadowColor: colors.text,
+        shadowOpacity: 0.25,
+        shadowRadius: 10,
+        elevation: 10
     },
     dropdownItem: {
-        paddingVertical: 8,
+        paddingVertical: 12,
         borderBottomWidth: 1,
         borderBottomColor: '#444',
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        paddingHorizontal: 10,
+        borderRadius: 8,
+        marginBottom: 6
     },
     menuText: {
         fontSize: 15,
@@ -341,5 +384,29 @@ const styles = StyleSheet.create({
         color: colors.verde,
         fontSize: 14,
         marginTop: 5
-    }
+    },
+    dropdownTitle: {
+        fontSize: 18,
+        fontWeight: "bold",
+        color: colors.verde,
+        marginBottom: 15,
+        textAlign: "center"
+    },
+    dropdownItemPressed: {
+        backgroundColor: colors.negro
+    },
+    categoriesMenuContainer: {
+        width: "70%",
+        height: "100%",
+        backgroundColor: colors.negro,
+        padding: 20
+    },
+    categoryItem: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        paddingVertical: 14,
+        borderBottomWidth: 1,
+        borderBottomColor: colors.verde
+    },
 });

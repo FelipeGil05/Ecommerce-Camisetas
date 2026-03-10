@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useEffect } from "react";
-import { View, FlatList, StyleSheet, Text } from "react-native";
+import { View, FlatList, StyleSheet, Text, Pressable } from "react-native";
 
 import ProductItem from "../Components/ProductItem";
 import { colors } from "../Global/colors";
@@ -19,7 +19,6 @@ export default function ItemListCategory({ navigation, route }) {
         }
     }, [route?.params?.q]);
 
-//RTK Query - traemos TODOS los productos y filtramos en el cliente
     const { data: allProducts, isLoading: loadingAll } = useGetProductsQuery();
 
     const productsData = allProducts;
@@ -28,18 +27,15 @@ export default function ItemListCategory({ navigation, route }) {
     const products = useMemo(() => {
         if (!productsData) return [];
 
-        // Convertir objeto de Firebase a array
         const allItems = Array.isArray(productsData)
             ? productsData
             : Object.values(productsData);
 
-        // Filtrar por categoría selectedCategory en el cliente
         let base = allItems;
         if (category?.id) {
             base = allItems.filter((p) => p.categoryId === category.id);
         }
 
-        // Aplicar filtro de búsqueda (ignorar si contiene números)
         return hasNumbers
             ? base
             : base.filter((p) =>
@@ -69,12 +65,26 @@ export default function ItemListCategory({ navigation, route }) {
     return (
         <View style={styles.screen}>
             <View style={styles.content}>
+                <Pressable
+                    style={styles.backBtn}
+                    onPress={() => navigation.goBack()}
+                >
+                    <Text style={styles.backText}>← Volver</Text>
+                </Pressable>
+
+                {category && (
+                    <Text style={styles.categoryName}>
+                        {category.name}
+                    </Text>
+                )}
                 <FlatList
                     data={products}
                     keyExtractor={(it) => String(it.id)}
                     renderItem={({ item }) => (
                         <ProductItem item={item} navigation={navigation} />
                     )}
+                    numColumns={2}
+                    columnWrapperStyle={{ justifyContent: "space-between" }}
                 />
             </View>
         </View>
@@ -95,5 +105,17 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         marginTop: 20,
         color: colors.text,
+    },
+    categoryName: {
+        fontSize: 22,
+        fontWeight: "bold",
+        marginBottom: 10,
+        color: colors.verde,
+        textAlign: "center"
+    },
+    backText: {
+        color: colors.verde,
+        fontWeight: "700",
+        fontSize: 16,
     },
 });

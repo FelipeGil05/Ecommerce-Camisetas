@@ -1,23 +1,45 @@
-import { Pressable, Text, Image, StyleSheet, View, useWindowDimensions } from "react-native";
+import { Pressable, Text, Image, StyleSheet, View } from "react-native";
 import { colors } from "../Global/colors";
-
-
+import Ionicons from "@expo/vector-icons/Ionicons";
 
 export default function ProductItem({ item, navigation }) {
-    const { width, height } = useWindowDimensions();
 
     return (
         <Pressable
             style={styles.card}
             onPress={() => navigation.navigate('ItemDetail', { productId: item.id })}
         >
-            <Text
-                style={width < 360 ? styles.titleMin : styles.title}
-                numberOfLines={1}>
-                {item.title}
-            </Text>
-            <View style={styles.thumbWrap}>
-                <Image source={{ uri: item.thumbnail }} style={styles.thumb} />
+            <Image
+                source={{ uri: item.thumbnail }}
+                style={styles.image}
+            />
+            <View style={styles.info}>
+
+                <Text style={styles.brand}>
+                    {item.brand}
+                </Text>
+
+                <Text
+                    style={styles.title}
+                    numberOfLines={2}
+                >
+                    {item.title}
+                </Text>
+
+                <View style={styles.bottomRow}>
+
+                    <Text style={styles.price}>
+                        ${item.price}
+                    </Text>
+
+                    <Ionicons
+                        name="chevron-forward"
+                        size={20}
+                        color={colors.amarillo}
+                    />
+
+                </View>
+
             </View>
         </Pressable>
     );
@@ -25,30 +47,46 @@ export default function ProductItem({ item, navigation }) {
 
 const styles = StyleSheet.create({
     card: {
+        flex: 1,
         backgroundColor: colors.negro,
-        borderRadius: 12,
-        padding: 12,
-        marginVertical: 8,
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "space-between",
+        borderRadius: 16,
+        marginBottom: 14,
+        marginHorizontal: 4,
+        overflow: "hidden",
+        shadowColor: colors.text,
+        shadowOpacity: 0.25,
+        shadowRadius: 8,
+        elevation: 6
+    },
+    image: {
+        width: "100%",
+        height: 180,
+        resizeMode: "cover"
+    },
+    info: {
+        padding: 14
+    },
+    brand: {
+        color: colors.amarillo,
+        fontSize: 12,
+        fontWeight: "700",
+        marginBottom: 4,
+        textTransform: "uppercase"
     },
     title: {
         color: "white",
-        fontWeight: "700",
-        flex: 1,
-        marginRight: 12
+        fontSize: 16,
+        fontWeight: "600",
+        marginRight: 10
     },
-    titleMin: {
-        color: "white",
-        fontWeight: "500",
-        margin: 0,
-        fontSize: 12
+    bottomRow: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center"
     },
-    thumbWrap: { width: 58, height: 58, borderRadius: 10, overflow: "hidden" },
-    thumb: {
-        width: "100%",
-        height: "100%",
-        resizeMode: "cover"
-    },
+    price: {
+        color: colors.verde,
+        fontSize: 18,
+        fontWeight: "bold"
+    }
 });
