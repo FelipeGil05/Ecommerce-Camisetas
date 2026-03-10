@@ -24,6 +24,11 @@ export default function Login({ navigation }) {
             return;
         }
 
+        if (password.length < 6) {
+            dispatch(setError("La contraseña debe tener al menos 6 caracteres"));
+            return;
+        }
+
         dispatch(setError(null));
 
         try {

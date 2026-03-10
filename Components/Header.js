@@ -305,14 +305,15 @@ const styles = StyleSheet.create({
         height: "100%",
         backgroundColor: colors.negro,
         padding: 20,
-        justifyContent: "space-between"
+        justifyContent: "space-between",
     },
     sideMenuTitle: {
         fontSize: 20,
         fontWeight: "bold",
         color: colors.verde,
         marginBottom: 20,
-        textAlign: "center"
+        textAlign: "center",
+        marginTop: 30
     },
     sideMenuButton: {
         backgroundColor: colors.amarillo,
