@@ -6,6 +6,7 @@ import { useState, useRef } from "react";
 import { useGetCategoriesQuery } from "../services/shopService";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../store/features/authSlice";
+import { clearCart } from "../store/cartSlice";
 
 export default function Header({ navigation }) {
     const [query, setQuery] = useState("");
@@ -16,6 +17,13 @@ export default function Header({ navigation }) {
     const user = useSelector(state => state.auth.user);
     const [categoriesMenuVisible, setCategoriesMenuVisible] = useState(false);
     const categoriesSlideAnim = useRef(new Animated.Value(-300)).current;
+
+    const items = useSelector(state => state.cart.items);
+
+    const cartCount = items.reduce(
+        (acc, it) => acc + it.quantity,
+        0
+    );
 
     const navToTab = (tabName, params) => {
         navigation.navigate('Main', {
@@ -59,6 +67,7 @@ export default function Header({ navigation }) {
 
     const handleLogout = () => {
         dispatch(logout());
+        dispatch(clearCart());
         closeMenu();
     };
 
@@ -87,12 +96,20 @@ export default function Header({ navigation }) {
                             }).start();
                         }}
                     >
-                        <Ionicons name="person-outline" size={24} color={colors.blanco} />
+                        <Ionicons name="person-outline" size={24} color={colors.amarillo} />
                         <Text style={styles.actionText}>Mi cuenta</Text>
                     </Pressable>
 
                     <Pressable style={styles.actionItem} onPress={() => navToTab('Cart')}>
-                        <Ionicons name="cart-outline" size={24} color={colors.blanco} />
+                        <View style={{ position: "relative" }}>
+                            <Ionicons name="cart-outline" size={24} color={colors.amarillo} />
+
+                            {cartCount > 0 && (
+                                <View style={styles.cartBadge}>
+                                    <Text style={styles.cartBadgeText}>{cartCount}</Text>
+                                </View>
+                            )}
+                        </View>
                         <Text style={styles.actionText}>Mi carrito</Text>
                     </Pressable>
                 </View>
@@ -131,7 +148,7 @@ export default function Header({ navigation }) {
                         }).start();
                     }}
                 >
-                    <Ionicons name="menu" size={28} color={colors.blanco} />
+                    <Ionicons name="menu" size={28} color={colors.amarillo} />
                 </Pressable>
 
                 <Modal
@@ -166,7 +183,7 @@ export default function Header({ navigation }) {
                                 </Pressable>
                             ))}
                         </Animated.View>
-                        
+
                         <Pressable
                             style={styles.sideMenuBackground}
                             onPress={closeCategoriesMenu}
@@ -223,11 +240,7 @@ export default function Header({ navigation }) {
                                         <Text style={styles.userEmail}>{user?.email}</Text>
                                     </View>
 
-                                    <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navigation.navigate("Profile") }}>
-                                        <Text style={styles.sideMenuButtonText}>Mi perfil</Text>
-                                    </Pressable>
-
-                                    <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navigation.navigate("Orders"); }}>
+                                    <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navToTab("Orders"); }}>
                                         <Text style={styles.sideMenuButtonText}>Mis pedidos</Text>
                                     </Pressable>
                                 </View>
@@ -293,7 +306,7 @@ const styles = StyleSheet.create({
     },
     actionText: {
         fontSize: 12,
-        color: "white"
+        color: colors.amarillo
     },
     menuRow: {
         flexDirection: "row",
@@ -302,11 +315,11 @@ const styles = StyleSheet.create({
         paddingHorizontal: 12
     },
     menuButton: {
-        padding: 8,
+        padding: 8
     },
     modalOverlay: {
         flex: 1,
-        backgroundColor: 'rgba(0,0,0,0.5)',
+        backgroundColor: colors.text,
         justifyContent: 'center',
         alignItems: 'center',
     },
@@ -409,4 +422,21 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: colors.verde
     },
+    cartBadge: {
+        position: "absolute",
+        top: -6,
+        right: -10,
+        backgroundColor: "#ff3b30",
+        borderRadius: 10,
+        minWidth: 18,
+        height: 18,
+        justifyContent: "center",
+        alignItems: "center",
+        paddingHorizontal: 4
+    },
+    cartBadgeText: {
+        color: "white",
+        fontSize: 10,
+        fontWeight: "bold"
+    }
 });

@@ -1,41 +1,49 @@
 [
     {
         "id": "argentina",
+        "image": "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=https%3A%2F%2Fwww.racingdealma.com.ar%2Fwp-content%2Fuploads%2F2025%2F01%2F20250130_215630.jpg",
         "name": "Argentina",
         "type": "actual"
     },
     {
         "id": "sudamerica",
+        "image": "https://fla-media.mundobola.com/media/2025/07/jorginho-flamengo-atletico-mg.jpg",
         "name": "Sudamérica",
         "type": "actual"
     },
     {
         "id": "norteamerica",
+        "image": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/v1729459218/primary/eur6dyo6anqgpftkpfsm",
         "name": "Norteamérica",
         "type": "actual"
     },
     {
         "id": "europa",
+        "image": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/01/06/420121.jpg",
         "name": "Europa",
         "type": "actual"
     },
     {
         "id": "selecciones",
+        "image": "https://objetos-xlk.estaticos-marca.com/uploads/2025/03/19/67db1eb8db911.jpeg",
         "name": "Selecciones",
         "type": "actual"
     },
     {
         "id": "retro-europa",
+        "image": "https://i.pinimg.com/1200x/f3/71/de/f371de6c509803bc468ec073b7176d1f.jpg",
         "name": "Retro Europa",
         "type": "retro"
     },
     {
         "id": "retro-sudamerica",
+        "image": "https://media.diariopopular.com.ar/p/dd7c2c261def9cf27aea36cc962e6795/adjuntos/143/imagenes/008/126/0008126257/1200x675/smart/neymar-santosjpg.jpg",
         "name": "Retro Sudamérica",
         "type": "retro"
     },
     {
         "id": "retro-selecciones",
+        "image": "https://i.pinimg.com/474x/b1/ab/66/b1ab661d656ab9a31901d94fd4e7bde1.jpg",
         "name": "Retro Selecciones",
         "type": "retro"
     }

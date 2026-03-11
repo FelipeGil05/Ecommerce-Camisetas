@@ -56,7 +56,8 @@ const styles = StyleSheet.create({
         shadowColor: colors.text,
         shadowOpacity: 0.25,
         shadowRadius: 8,
-        elevation: 6
+        elevation: 6,
+        marginTop: 5
     },
     image: {
         width: "100%",

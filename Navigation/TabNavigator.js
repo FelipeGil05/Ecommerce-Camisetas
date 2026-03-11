@@ -1,25 +1,32 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
-
 import ShopStack from "./ShopStack";
 import CartStack from "./CartStack";
 import OrderStack from "./OrderStack";
 import { colors } from "../Global/colors";
+import { useSelector } from "react-redux";
 
 const Tab = createBottomTabNavigator();
 
 export default function TabNavigator() {
+    const items = useSelector(state => state.cart.items);
+
+    const cartCount = items.reduce(
+        (acc, it) => acc + it.quantity,
+        0
+    );
+
     return (
         <Tab.Navigator
             screenOptions={({ route }) => ({
                 headerShown: false,
                 tabBarShowLabel: false,
                 tabBarStyle: {
-                    backgroundColor: colors.gris,
+                    paddingTop: 10,
+                    backgroundColor: colors.text,
                     borderTopColor: "transparent",
-                    height: 60,
-                    pointerEvents: "auto",
+                    height: 70
                 },
                 tabBarIcon: ({ focused, size }) => {
                     let iconName = "home";
@@ -31,14 +38,14 @@ export default function TabNavigator() {
                         <Ionicons
                             name={iconName}
                             size={size ?? 24}
-                            color={focused ? colors.negro : colors.text}
+                            color={focused ? colors.verde : colors.amarillo}
                         />
                     );
                 },
             })}
         >
             <Tab.Screen name="Shop" component={ShopStack} />
-            <Tab.Screen name="Cart" component={CartStack} />
+            <Tab.Screen name="Cart" component={CartStack} options={{tabBarBadge: cartCount > 0 ? cartCount : null}}/>
             <Tab.Screen name="Orders" component={OrderStack} />
         </Tab.Navigator>
     );

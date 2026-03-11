@@ -1,59 +1,113 @@
 import { useMemo, useState } from "react";
 import { View, Text, FlatList, Pressable, StyleSheet } from "react-native";
-
 import CartItem from "../Components/CartItem";
-import { cartItems as cartMock } from "../Data/cart";
 import { colors } from "../Global/colors";
+import { useSelector, useDispatch } from "react-redux";
+import { removeFromCart, clearCart } from "../store/cartSlice";
 
 export default function Cart() {
-    const [items, setItems] = useState(cartMock);
+    const items = useSelector(state => state.cart.items);
+    const dispatch = useDispatch();
 
     const total = useMemo(() => {
-        return items.reduce((acc, it) => acc + (it.price ?? 0) * (it.quantity ?? 1), 0);
+        return items.reduce(
+            (acc, it) => acc + (it.price ?? 0) * (it.quantity ?? 1),
+            0
+        );
     }, [items]);
 
     const handleRemove = (id) => {
-        setItems((prev) => prev.filter((i) => String(i.id) !== String(id)));
+        dispatch(removeFromCart(id));
     };
 
     const handleConfirm = () => {
-        // Por ahora es un mock
-        setItems([]);
+        dispatch(clearCart());
     };
 
     return (
         <View style={styles.screen}>
-            <View style={styles.content}>
-                <FlatList
-                    data={items}
-                    keyExtractor={(it) => String(it.id)}
-                    renderItem={({ item }) => <CartItem item={item} onRemove={handleRemove} />}
-                    ListEmptyComponent={<Text style={styles.empty}>No hay items en el carrito.</Text>}
-                />
+            <FlatList
+                data={items}
+                keyExtractor={(it) => String(it.id)}
+                renderItem={({ item }) => <CartItem item={item} onRemove={handleRemove} />}
+                contentContainerStyle={styles.list}
+                ListEmptyComponent={<Text style={styles.empty}>Tu carrito está vacío</Text>}
+            />
 
-                <View style={styles.footer}>
-                    <Text style={styles.total}>Total: ${total.toFixed(2)}</Text>
-                    <Pressable style={styles.btn} onPress={handleConfirm} disabled={items.length === 0}>
-                        <Text style={styles.btnText}>Confirm</Text>
-                    </Pressable>
+            <View style={styles.footer}>
+                <View style={styles.totalRow}>
+                    <Text style={styles.totalText}>Total</Text>
+                    <Text style={styles.totalPrice}>${total.toFixed(2)}</Text>
                 </View>
+
+                <Pressable
+                    style={[
+                        styles.checkoutBtn,
+                        items.length === 0 && styles.disabled
+                    ]}
+                    onPress={handleConfirm}
+                    disabled={items.length === 0}
+                >
+                    <Text style={styles.checkoutText}>
+                        Finalizar compra
+                    </Text>
+                </Pressable>
             </View>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
-    screen: { flex: 1, backgroundColor: colors.gris },
-    content: { flex: 1, padding: 16 },
-    empty: { textAlign: "center", marginTop: 20, fontWeight: "700", color: colors.text },
-    footer: { paddingTop: 12, gap: 10 },
-    total: { fontWeight: "900", fontSize: 16, color: colors.text },
-    btn: {
-        backgroundColor: colors.negro,
-        paddingVertical: 12,
-        borderRadius: 10,
-        alignItems: "center",
-        opacity: 1,
+    screen: {
+        flex: 1,
+        backgroundColor: colors.gris
     },
-    btnText: { color: "white", fontWeight: "900" },
+    list: {
+        padding: 16,
+        paddingBottom: 120
+    },
+    empty: {
+        textAlign: "center",
+        marginTop: 60,
+        fontWeight: "700",
+        color: colors.text
+    },
+    footer: {
+        position: "absolute",
+        bottom: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: colors.text,
+        paddingTop: 18,
+        borderTopLeftRadius: 16,
+        borderTopRightRadius: 16
+    },
+    totalRow: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginBottom: 14
+    },
+    totalText: {
+        color: colors.gris,
+        fontSize: 16
+    },
+    totalPrice: {
+        color: colors.blanco,
+        fontSize: 20,
+        fontWeight: "900"
+    },
+    checkoutBtn: {
+        backgroundColor: colors.verde,
+        paddingVertical: 14,
+        borderRadius: 12,
+        alignItems: "center"
+    },
+    checkoutText: {
+        color: colors.blanco,
+        fontWeight: "900",
+        fontSize: 16
+    },
+    disabled: {
+        opacity: 0.4
+    }
 });

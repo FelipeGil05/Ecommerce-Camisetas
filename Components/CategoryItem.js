@@ -1,4 +1,4 @@
-import { Pressable, Text, StyleSheet } from "react-native";
+import { Pressable, Text, StyleSheet, Image, View } from "react-native";
 import { colors } from "../Global/colors";
 
 export default function CategoryItem({ item, navigation }) {
@@ -7,6 +7,11 @@ export default function CategoryItem({ item, navigation }) {
             style={styles.card}
             onPress={() => navigation.navigate('ItemListCategory', { category: item })}
         >
+            <Image
+                source={{ uri: item.image }}
+                style={styles.image}
+            />
+            <View style={styles.overlay} />
             <Text style={styles.text}>{item.name}</Text>
         </Pressable>
     );
@@ -14,10 +19,28 @@ export default function CategoryItem({ item, navigation }) {
 
 const styles = StyleSheet.create({
     card: {
-        backgroundColor: colors.verde,
-        padding: 14,
-        borderRadius: 8,
-        marginVertical: 8,
+        height: 180,
+        borderRadius: 14,
+        overflow: "hidden",
+        marginBottom: 16
     },
-    text: { fontSize: 16, fontWeight: "700", color: colors.text },
+    image: {
+        width: "100%",
+        height: "100%",
+        position: "absolute"
+    },
+    overlay: {
+        ...StyleSheet.absoluteFillObject,
+        backgroundColor: "rgba(0,0,0,0.4)"
+    },
+    text: {
+        flex: 1,
+        textAlign: "center",
+        textAlignVertical: "center",
+        color: colors.blanco,
+        fontSize: 22, 
+        fontWeight: "800", 
+        letterSpacing: 1,
+        marginTop: 8
+    },
 });

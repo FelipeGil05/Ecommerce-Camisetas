@@ -12,6 +12,7 @@ export default function Categories({ navigation }) {
             <FlatList
                 data={categories}
                 keyExtractor={(it) => it.id}
+                contentContainerStyle={styles.listContent}
                 renderItem={({ item }) => (
                     <CategoryItem item={item} navigation={navigation} />
                 )}
@@ -24,6 +25,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: colors.gris,
-        padding: 16
+        paddingHorizontal: 16
     },
+    listContent: {
+    paddingTop: 16,
+    }
 });

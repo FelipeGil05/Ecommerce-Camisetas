@@ -1,42 +1,57 @@
-import { View, Text, StyleSheet, Pressable, Image } from "react-native";
+import { View, Text, Pressable, StyleSheet } from "react-native";
+import { useDispatch } from "react-redux";
 import { colors } from "../Global/colors";
-import { useDispatch, useSelector } from "react-redux";
-import { increment, decrement, reset } from "../store/features/counter/counterSlice.js"
+import { increaseQuantity, decreaseQuantity } from "../store/cartSlice"
 
-export default function Counter() {
+export default function Counter({ item }) {
 
     const dispatch = useDispatch();
-    const count = useSelector((state) => state.counter.count)
-
 
     return (
-        <View style={styles.card}>
-            <View>
-                <Pressable onPress={() => dispatch(decrement())}> <Text> - </Text></Pressable>
-                <Text> {count} </Text>
-                <Pressable onPress={() => dispatch(increment())}> <Text> + </Text></Pressable>
+        <View style={styles.container}>
 
-            </View>
-            <Pressable onPress={() => dispatch(reset())} >
-                <Text> Reset</Text>
+            <Pressable
+                style={styles.button}
+                onPress={() => dispatch(decreaseQuantity(item.id))}
+            >
+                <Text style={styles.text}>-</Text>
             </Pressable>
+
+            <Text style={styles.number}>{item.quantity}</Text>
+
+            <Pressable
+                style={styles.button}
+                onPress={() => dispatch(increaseQuantity(item.id))}
+            >
+                <Text style={styles.text}>+</Text>
+            </Pressable>
+
         </View>
     );
 }
 
 const styles = StyleSheet.create({
-    card: {
-        backgroundColor: colors.verde,
-        borderRadius: 12,
-        padding: 12,
-        marginVertical: 8,
+    container: {
         flexDirection: "row",
         alignItems: "center",
-        gap: 12,
+        gap: 10
     },
-    thumb: { width: 56, height: 56, borderRadius: 10 },
-    info: { flex: 1, gap: 2 },
-    title: { fontWeight: "800", color: colors.text },
-    meta: { color: colors.text },
-    remove: { fontWeight: "800", color: "#8B0000" },
+    button: {
+        width: 30,
+        height: 30,
+        backgroundColor: colors.negro,
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: 6
+    },
+    text: {
+        color: colors.amarillo,
+        fontWeight: "bold",
+        fontSize: 16
+    },
+    number: {
+        fontWeight: "bold",
+        fontSize: 16,
+        color: colors.blanco
+    }
 });
