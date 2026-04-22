@@ -1,8 +1,9 @@
 import { View, Text, StyleSheet, Pressable, TextInput, Image, Modal, Animated } from "react-native";
 import EvilIcons from '@expo/vector-icons/EvilIcons';
 import Ionicons from '@expo/vector-icons/Ionicons';
+import * as ImagePicker from 'expo-image-picker';
 import { colors } from "../Global/colors";
-import { useState, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useGetCategoriesQuery } from "../services/shopService";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../store/features/authSlice";
@@ -46,8 +47,31 @@ export default function Header({ navigation }) {
     const goProducts = () => navToTab('Shop', { screen: 'ItemListCategory', params: { q: '', category: null } });
 
     const { data: categories = [] } = useGetCategoriesQuery();
+    const [profileImage, setProfileImage] = useState(null);
 
     const slideAnim = useRef(new Animated.Value(300)).current;
+
+    useEffect(() => {
+        (async () => {
+            const { status } = await ImagePicker.requestCameraPermissionsAsync();
+            if (status !== 'granted') {
+                alert('Se necesita permiso para usar la cámara.');
+            }
+        })();
+    }, []);
+
+    const pickProfileImage = async () => {
+        const result = await ImagePicker.launchCameraAsync({
+            mediaTypes: ImagePicker.MediaTypeOptions.Images,
+            allowsEditing: true,
+            aspect: [1, 1],
+            quality: 0.7,
+        });
+
+        if (!result.canceled && result.assets?.length > 0) {
+            setProfileImage(result.assets[0].uri);
+        }
+    };
 
     const closeMenu = () => {
         Animated.timing(slideAnim, {
@@ -236,11 +260,22 @@ export default function Header({ navigation }) {
                                     <Text style={styles.sideMenuTitle}>Mi cuenta</Text>
 
                                     <View style={styles.userInfo}>
-                                        <Ionicons name="person-circle-outline" size={60} color={colors.amarillo} />
-                                        <Text style={styles.userEmail}>{user?.email}</Text>
-                                    </View>
+                                    <Pressable style={styles.userAvatarContainer} onPress={pickProfileImage}>
+                                        {profileImage ? (
+                                            <Image source={{ uri: profileImage }} style={styles.userAvatar} />
+                                        ) : (
+                                            <View style={styles.userAvatarPlaceholder}>
+                                                <Text style={styles.userInitialText}>
+                                                    {user?.email ? user.email.charAt(0).toUpperCase() : 'U'}
+                                                </Text>
+                                            </View>
+                                        )}
+                                    </Pressable>
+                                    <Text style={styles.userEmail}>{user?.email}</Text>
 
-                                    <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navToTab("Orders"); }}>
+                                </View>
+
+                                <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navToTab("Orders"); }}>
                                         <Text style={styles.sideMenuButtonText}>Mis pedidos</Text>
                                     </Pressable>
                                 </View>
@@ -392,6 +427,44 @@ const styles = StyleSheet.create({
     userInfo: {
         alignItems: "center",
         marginBottom: 20
+    },
+    userAvatarContainer: {
+        borderRadius: 50,
+        overflow: "hidden",
+        marginBottom: 12,
+    },
+    userAvatar: {
+        width: 90,
+        height: 90,
+        borderRadius: 45,
+        borderWidth: 2,
+        borderColor: colors.amarillo,
+    },
+    userAvatarPlaceholder: {
+        width: 90,
+        height: 90,
+        borderRadius: 45,
+        justifyContent: "center",
+        alignItems: "center",
+        borderWidth: 2,
+        borderColor: colors.amarillo,
+        backgroundColor: colors.negro,
+    },
+    userInitialText: {
+        color: colors.amarillo,
+        fontSize: 32,
+        fontWeight: "bold",
+    },
+    changePhotoButton: {
+        marginTop: 10,
+        paddingHorizontal: 16,
+        paddingVertical: 10,
+        borderRadius: 8,
+        backgroundColor: colors.verde,
+    },
+    changePhotoText: {
+        color: colors.text,
+        fontWeight: "600"
     },
     userEmail: {
         color: colors.verde,
