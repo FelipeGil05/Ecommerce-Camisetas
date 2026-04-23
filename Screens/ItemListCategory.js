@@ -1,8 +1,8 @@
 import React, { useMemo, useState, useEffect } from "react";
 import { View, FlatList, StyleSheet, Text, Pressable } from "react-native";
-
 import ProductItem from "../Components/ProductItem";
 import { colors } from "../Global/colors";
+import { ActivityIndicator } from "react-native-web";
 
 import { useGetProductsByCategoryQuery, useGetProductsQuery } from "../services/shopService";
 
@@ -19,10 +19,7 @@ export default function ItemListCategory({ navigation, route }) {
         }
     }, [route?.params?.q]);
 
-    const { data: allProducts, isLoading: loadingAll } = useGetProductsQuery();
-
-    const productsData = allProducts;
-    const isLoading = loadingAll;
+    const { data: productsData, isLoading, error } = useGetProductsQuery();
 
     const products = useMemo(() => {
         if (!productsData) return [];
@@ -42,13 +39,6 @@ export default function ItemListCategory({ navigation, route }) {
                 p.title.toLowerCase().includes(keyword.trim().toLowerCase())
             );
     }, [productsData, category, keyword, hasNumbers]);
-    if (isLoading) {
-        return (
-            <View style={styles.screen}>
-                <Text>Cargando productos...</Text>
-            </View>
-        );
-    }
 
     if (!isLoading && products.length === 0) {
         return (
@@ -63,31 +53,39 @@ export default function ItemListCategory({ navigation, route }) {
     }
 
     return (
-        <View style={styles.screen}>
-            <View style={styles.content}>
-                <Pressable
-                    style={styles.backBtn}
-                    onPress={() => navigation.goBack()}
-                >
-                    <Text style={styles.backText}>← Volver</Text>
-                </Pressable>
+        <>
+        {
+            isLoading
+            ?
+            <ActivityIndicator />
+            :
+            <View style={styles.screen}>
+                <View style={styles.content}>
+                    <Pressable
+                        style={styles.backBtn}
+                        onPress={() => navigation.goBack()}
+                    >
+                        <Text style={styles.backText}>← Volver</Text>
+                    </Pressable>
 
-                {category && (
-                    <Text style={styles.categoryName}>
-                        {category.name}
-                    </Text>
-                )}
-                <FlatList
-                    data={products}
-                    keyExtractor={(it) => String(it.id)}
-                    renderItem={({ item }) => (
-                        <ProductItem item={item} navigation={navigation} />
+                    {category && (
+                        <Text style={styles.categoryName}>
+                            {category.name}
+                        </Text>
                     )}
-                    numColumns={2}
-                    columnWrapperStyle={{ justifyContent: "space-between" }}
-                />
+                    <FlatList
+                        data={products}
+                        keyExtractor={(it) => String(it.id)}
+                        renderItem={({ item }) => (
+                            <ProductItem item={item} navigation={navigation} />
+                        )}
+                        numColumns={2}
+                        columnWrapperStyle={{ justifyContent: "space-between" }}
+                    />
+                </View>
             </View>
-        </View>
+        }
+        </>
     );
 }
 

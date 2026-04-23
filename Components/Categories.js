@@ -2,22 +2,31 @@ import { FlatList, View, StyleSheet, Text } from "react-native";
 import CategoryItem from "./CategoryItem";
 import { colors } from "../Global/colors";
 import { useGetCategoriesQuery } from "../services/shopService";
+import { ActivityIndicator } from "react-native-web";
 
 export default function Categories({ navigation }) {
 
-    const { data:categories, isLoading, error } = useGetCategoriesQuery();
+    const { data: categories, isLoading, error } = useGetCategoriesQuery();
 
     return (
-        <View style={styles.container}>
-            <FlatList
-                data={categories}
-                keyExtractor={(it) => it.id}
-                contentContainerStyle={styles.listContent}
-                renderItem={({ item }) => (
-                    <CategoryItem item={item} navigation={navigation} />
-                )}
-            />
-        </View>
+        <>
+            {
+                isLoading
+                    ?
+                    <ActivityIndicator />
+                    :
+                    <View style={styles.container}>
+                        <FlatList
+                            data={categories}
+                            keyExtractor={(it) => it.id}
+                            contentContainerStyle={styles.listContent}
+                            renderItem={({ item }) => (
+                                <CategoryItem item={item} navigation={navigation} />
+                            )}
+                        />
+                    </View>
+            }
+        </>
     );
 }
 
@@ -28,6 +37,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 16
     },
     listContent: {
-    paddingTop: 16,
+        paddingTop: 16,
     }
 });

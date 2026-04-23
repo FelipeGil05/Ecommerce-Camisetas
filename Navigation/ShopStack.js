@@ -5,7 +5,6 @@ import Home from "../Screens/Home";
 import ItemListCategory from "../Screens/ItemListCategory";
 import ItemDetail from "../Screens/ItemDetail";
 import Account from "../Screens/Account";
-import Contact from "../Screens/Contact";
 
 const Stack = createNativeStackNavigator();
 
@@ -26,7 +25,6 @@ export default function ShopStack() {
             />
             <Stack.Screen name="ItemDetail" component={ItemDetail} options={{ title: "Detail" }} />
             <Stack.Screen name="Account" component={Account} options={{ title: "Mi cuenta" }} />
-            <Stack.Screen name="Contact" component={Contact} options={{ title: "Contacto" }} />
         </Stack.Navigator>
     );
 }
