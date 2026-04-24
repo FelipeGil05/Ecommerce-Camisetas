@@ -4,7 +4,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import * as ImagePicker from 'expo-image-picker';
 import { colors } from "../Global/colors";
 import { useState, useEffect, useRef } from "react";
-import { useGetCategoriesQuery } from "../services/shopService";
+import { useGetCategoriesQuery } from "../services/shopApi";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../store/features/authSlice";
 import { clearCart } from "../store/cartSlice";

@@ -1,13 +1,18 @@
 import { useMemo, useState } from "react";
-import { View, Text, FlatList, Pressable, StyleSheet } from "react-native";
+import { View, Text, FlatList, Pressable, StyleSheet, Alert } from "react-native";
 import CartItem from "../Components/CartItem";
 import { colors } from "../Global/colors";
 import { useSelector, useDispatch } from "react-redux";
 import { removeFromCart, clearCart } from "../store/cartSlice";
+import { saveOrder } from "../firebase/ordersDb";
+import CheckoutModal from "../Components/CheckoutModal";
 
 export default function Cart() {
     const items = useSelector(state => state.cart.items);
+    const user = useSelector(state => state.auth.user);
     const dispatch = useDispatch();
+    const [modalVisible, setModalVisible] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const total = useMemo(() => {
         return items.reduce(
@@ -20,8 +25,42 @@ export default function Cart() {
         dispatch(removeFromCart(id));
     };
 
-    const handleConfirm = () => {
-        dispatch(clearCart());
+    const handleCheckout = () => {
+        setModalVisible(true);
+    };
+
+    const handleModalClose = () => {
+        setModalVisible(false);
+    };
+
+    const handleModalConfirm = async (formData) => {
+        if (!user?.uid) {
+            Alert.alert("Error", `Debes iniciar sesión. User: ${JSON.stringify(user)}`);
+            setModalVisible(false);
+            return;
+        }
+        setLoading(true);
+        const order = {
+            items: items.map(item => ({
+                id: item.id,
+                title: item.title,
+                price: item.price,
+                quantity: item.quantity,
+                image: item.image
+            })),
+            total: items.reduce((acc, it) => acc + (it.price ?? 0) * (it.quantity ?? 1), 0),
+            datosCliente: formData
+        };
+        try {
+            await saveOrder(user.uid, order);
+            dispatch(clearCart());
+            setModalVisible(false);
+            Alert.alert("Éxito", "Tu pedido ha sido confirmado!");
+        } catch (error) {
+            Alert.alert("Error", "No se pudo guardar el pedido");
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -45,7 +84,7 @@ export default function Cart() {
                         styles.checkoutBtn,
                         items.length === 0 && styles.disabled
                     ]}
-                    onPress={handleConfirm}
+                    onPress={handleCheckout}
                     disabled={items.length === 0}
                 >
                     <Text style={styles.checkoutText}>
@@ -53,6 +92,12 @@ export default function Cart() {
                     </Text>
                 </Pressable>
             </View>
+            <CheckoutModal
+                visible={modalVisible}
+                onClose={handleModalClose}
+                onConfirm={handleModalConfirm}
+                isLoading={loading}
+            />
         </View>
     );
 }

@@ -4,7 +4,7 @@ import ProductItem from "../Components/ProductItem";
 import { colors } from "../Global/colors";
 import { ActivityIndicator } from "react-native-web";
 
-import { useGetProductsByCategoryQuery, useGetProductsQuery } from "../services/shopService";
+import { useGetProductsByCategoryQuery, useGetProductsQuery } from "../services/shopApi";
 
 export default function ItemListCategory({ navigation, route }) {
     const category = route?.params?.category;

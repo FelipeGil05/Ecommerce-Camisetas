@@ -4,7 +4,7 @@ import InputForm from '../Components/InputForm';
 import { Ionicons } from '@expo/vector-icons';
 import { Keyboard } from "react-native";
 import { useState } from 'react';
-import { useRegisterMutation } from '../services/authService';
+import { useRegisterMutation } from '../services/authApi';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, setError } from '../store/features/authSlice';
 

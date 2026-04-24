@@ -3,7 +3,7 @@ import { colors } from '../Global/colors';
 import InputForm from '../Components/InputForm';
 import { Ionicons } from '@expo/vector-icons';
 import { Keyboard } from "react-native";
-import { useLoginMutation } from '../services/authService';
+import { useLoginMutation } from '../services/authApi';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, setError } from '../store/features/authSlice';

@@ -1,6 +1,6 @@
 import { View, Text, Image, Pressable, StyleSheet, ScrollView, Animated } from "react-native";
 import { colors } from "../Global/colors";
-import { useGetProductsQuery } from "../services/shopService";
+import { useGetProductsQuery } from "../services/shopApi";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart } from "../store/cartSlice";
 import { useState, useRef } from "react";

@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { shopApi } from '../services/shopService';
-import { authApi } from "../services/authService";
+import { shopApi } from '../services/shopApi';
+import { authApi } from "../services/authApi";
 import authReducer from './features/authSlice';
 import cartReducer from './cartSlice'
 

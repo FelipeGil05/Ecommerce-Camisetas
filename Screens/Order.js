@@ -1,22 +1,62 @@
-import { useState } from "react";
-import { View, FlatList, Text, StyleSheet } from "react-native";
+import { useState, useEffect, useCallback } from "react";
+import { View, FlatList, Text, StyleSheet, ActivityIndicator } from "react-native";
+import { useFocusEffect } from "@react-navigation/native";
 
 import OrderItem from "../Components/OrderItem";
-import { orders as ordersMock } from "../Data/orders";
+import { getOrders, deleteOrder } from "../firebase/ordersDb";
 import { colors } from "../Global/colors";
+import { useSelector } from "react-redux";
 
 export default function OrdersScreen() {
-    const [orders, setOrders] = useState(ordersMock);
+    const user = useSelector(state => state.auth.user);
+    const [orders, setOrders] = useState([]);
+    const [loading, setLoading] = useState(true);
 
-    const handleRemove = (id) => {
-        setOrders((prev) => prev.filter((o) => o.id !== id));
+    const loadOrders = useCallback(async () => {
+        if (!user?.uid) {
+            setOrders([]);
+            setLoading(false);
+            return;
+        }
+        
+        try {
+            setLoading(true);
+            const userOrders = await getOrders(user.uid);
+            setOrders(userOrders);
+        } catch (error) {
+            console.error("Error cargando ordene:", error);
+        } finally {
+            setLoading(false);
+        }
+    }, [user?.uid]);
+
+    useFocusEffect(
+        useCallback(() => {
+            loadOrders();
+        }, [loadOrders])
+    );
+
+    const handleRemove = async (id) => {
+        if (!user?.uid) return;
+        try {
+            await deleteOrder(user.uid, id);
+            setOrders((prev) => prev.filter((o) => o.id !== id));
+        } catch (error) {
+            console.error("Error eliminando orden:", error);
+        }
     };
 
     const handleView = (_id) => {
     };
 
     return (
-        <View style={styles.screen}>
+        <>
+        {
+            loading
+            ?
+            <ActivityIndicator />
+            :
+            <View style={styles.screen}>
             <View style={styles.content}>
                 <FlatList
                     data={orders}
@@ -28,6 +68,8 @@ export default function OrdersScreen() {
                 />
             </View>
         </View>
+        }
+        </>
     );
 }
 
