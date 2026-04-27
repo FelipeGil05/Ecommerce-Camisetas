@@ -2,7 +2,7 @@ import { FlatList, View, StyleSheet, Text } from "react-native";
 import CategoryItem from "./CategoryItem";
 import { colors } from "../Global/colors";
 import { useGetCategoriesQuery } from "../services/shopApi";
-import { ActivityIndicator } from "react-native-web";
+import { ActivityIndicator } from "react-native";
 
 export default function Categories({ navigation }) {
 

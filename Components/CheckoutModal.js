@@ -53,6 +53,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                                 <TextInput
                                     style={styles.input}
                                     placeholder="Nombre"
+                                    placeholderTextColor="#888"
                                     value={form.nombre}
                                     onChangeText={(v) => handleChange("nombre", v)}
                                 />
@@ -62,6 +63,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                                 <TextInput
                                     style={styles.input}
                                     placeholder="Apellido"
+                                    placeholderTextColor="#888"
                                     value={form.apellido}
                                     onChangeText={(v) => handleChange("apellido", v)}
                                 />
@@ -72,6 +74,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                             style={styles.input}
                             placeholder="Teléfono"
                             keyboardType="phone-pad"
+                            placeholderTextColor="#888"
                             value={form.telefono}
                             onChangeText={(v) => handleChange("telefono", v)}
                         />
@@ -79,6 +82,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                         <TextInput
                             style={styles.input}
                             placeholder="Dirección"
+                            placeholderTextColor="#888"
                             value={form.direccion}
                             onChangeText={(v) => handleChange("direccion", v)}
                         />
@@ -86,6 +90,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                         <TextInput
                             style={styles.input}
                             placeholder="Ciudad"
+                            placeholderTextColor="#888"
                             value={form.ciudad}
                             onChangeText={(v) => handleChange("ciudad", v)}
                         />
@@ -95,6 +100,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                             style={styles.input}
                             placeholder="Número de tarjeta"
                             keyboardType="number-pad"
+                            placeholderTextColor="#888"
                             value={form.numeroTarjeta}
                             onChangeText={(v) => handleChange("numeroTarjeta", v)}
                         />
@@ -104,6 +110,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                                 <TextInput
                                     style={styles.input}
                                     placeholder="Vencimiento (MM/AA)"
+                                    placeholderTextColor="#888"
                                     value={form.vencimiento}
                                     onChangeText={(v) => handleChange("vencimiento", v)}
                                 />
@@ -114,6 +121,7 @@ export default function CheckoutModal({ visible, onClose, onConfirm, isLoading }
                                     style={styles.input}
                                     placeholder="CVV"
                                     keyboardType="number-pad"
+                                    placeholderTextColor="#888"
                                     value={form.cvv}
                                     onChangeText={(v) => handleChange("cvv", v)}
                                 />
@@ -174,7 +182,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         padding: 10,
         marginBottom: 8,
-        backgroundColor: colors.blanco 
+        backgroundColor: colors.blanco
     },
     error: {
         color: "#FF5C5C",

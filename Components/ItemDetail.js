@@ -2,7 +2,7 @@ import { View, Text, Image, Pressable, StyleSheet } from "react-native"
 import { colors } from "../Global/colors"
 import { useDispatch } from "react-redux"
 import { addToCart } from "../store/cartSlice"
-import { useGetProductsQuery } from "../services/shopService"
+import { useGetProductsQuery } from "../services/shopApi"
 
 const ItemDetail = ({ navigation, route }) => {
     const dispatch = useDispatch();

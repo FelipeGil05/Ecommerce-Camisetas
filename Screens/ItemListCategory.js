@@ -2,7 +2,7 @@ import React, { useMemo, useState, useEffect } from "react";
 import { View, FlatList, StyleSheet, Text, Pressable } from "react-native";
 import ProductItem from "../Components/ProductItem";
 import { colors } from "../Global/colors";
-import { ActivityIndicator } from "react-native-web";
+import { ActivityIndicator } from "react-native";
 
 import { useGetProductsByCategoryQuery, useGetProductsQuery } from "../services/shopApi";
 

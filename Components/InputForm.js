@@ -20,7 +20,7 @@ export default function InputForm({ label, onChange, error='', isSecure=false, s
             onChangeText={ onChangeText } 
             secureTextEntry={isSecure}  
             placeholder={label}
-            placeholderTextColor={colors.gris}
+            placeholderTextColor="#888"
             />
             { error ? 
                 <Text style={styles.error}>{ error }</Text>
