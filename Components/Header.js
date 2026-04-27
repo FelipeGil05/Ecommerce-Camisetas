@@ -260,22 +260,26 @@ export default function Header({ navigation }) {
                                     <Text style={styles.sideMenuTitle}>Mi cuenta</Text>
 
                                     <View style={styles.userInfo}>
-                                    <Pressable style={styles.userAvatarContainer} onPress={pickProfileImage}>
-                                        {profileImage ? (
-                                            <Image source={{ uri: profileImage }} style={styles.userAvatar} />
-                                        ) : (
-                                            <View style={styles.userAvatarPlaceholder}>
-                                                <Text style={styles.userInitialText}>
-                                                    {user?.email ? user.email.charAt(0).toUpperCase() : 'U'}
-                                                </Text>
-                                            </View>
-                                        )}
-                                    </Pressable>
-                                    <Text style={styles.userEmail}>{user?.email}</Text>
+                                        <View style={styles.avatarWrapper}>
+                                            <Pressable style={styles.userAvatarContainer} onPress={pickProfileImage}>
+                                                {profileImage ? (
+                                                    <Image source={{ uri: profileImage }} style={styles.userAvatar} />
+                                                ) : (
+                                                    <View style={styles.userAvatarPlaceholder}>
+                                                        <Text style={styles.userInitialText}>
+                                                            {user?.email ? user.email.charAt(0).toUpperCase() : 'U'}
+                                                        </Text>
+                                                    </View>
+                                                )}
+                                            </Pressable>
 
-                                </View>
-
-                                <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navToTab("Orders"); }}>
+                                            <Pressable style={styles.cameraButton} onPress={pickProfileImage}>
+                                                <Ionicons name="camera" size={16} color="#fff" />
+                                            </Pressable>
+                                        </View>
+                                        <Text style={styles.userEmail}>{user?.email}</Text>
+                                    </View>
+                                    <Pressable style={styles.sideMenuButton} onPress={() => { closeMenu(); navToTab("Orders"); }}>
                                         <Text style={styles.sideMenuButtonText}>Mis pedidos</Text>
                                     </Pressable>
                                 </View>
@@ -511,5 +515,28 @@ const styles = StyleSheet.create({
         color: "white",
         fontSize: 10,
         fontWeight: "bold"
-    }
+    },
+    avatarWrapper: {
+        position: "relative",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    cameraButton: {
+        position: "absolute",
+        bottom: 0,
+        right: 0,
+        width: 28,
+        height: 28,
+        borderRadius: 14,
+        backgroundColor: colors.verde,
+        justifyContent: "center",
+        alignItems: "center",
+        elevation: 5,
+        shadowColor: "#000",
+        shadowOpacity: 0.3,
+        shadowRadius: 4,
+        shadowOffset: { width: 0, height: 2 },
+        borderWidth: 2,
+        borderColor: "#fff"
+    },
 });
